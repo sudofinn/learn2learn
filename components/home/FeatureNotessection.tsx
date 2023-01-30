@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image"
 import Primary from "../../assets/image 52.png"
-
+import PrimaryGif from "../../assets/FullSizeRender.gif"
 const FeatureJobsSection = () => {
   return (
     <div className='text-center'>
@@ -16,7 +16,7 @@ const FeatureJobsSection = () => {
             </ul>
 
              <Image
-            src={Primary}
+            src={PrimaryGif}
             alt="The Header"
             className="mt-12 mx-auto mb-12 w-2/3 shadow-xl shadow-black "
           />

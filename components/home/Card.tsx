@@ -7,8 +7,8 @@ export const Pricing = () => {
       <div className="absolute hidden w-full bg-gray-50  lg:block h-96" />
       <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-            <span className="relative inline-block ">
+          <h2 className="max-w-lg mb-6 font-sans text-7xl font-extrabold leading-none tracking-tight text-gray-900  md:mx-auto">
+            <span className="relative inline-block  ">
               <svg
                 viewBox="0 0 52 24"
                 fill="#fff"
@@ -34,11 +34,11 @@ export const Pricing = () => {
               <div>
 
               </div>
-              <span className="relative  ">Affordable </span>
+              <span className="relative   ">Affordable </span>
             </span >{" "}
             for everyone
           </h2>
-          <p className="text-base text-gray-700 md:text-lg font-extrabold ">
+          <p className="text-base text-black md:text-2xl font-extrabold   inline-flex shadow-md shadow-black ">
             Buy once, own forever.
           </p>
         </div>
@@ -79,7 +79,7 @@ export const Pricing = () => {
                     </svg>
                   </div>
                   <p className="font-medium text-gray-300">
-                    10 deploys per day
+                    Complete Freelance OS
                   </p>
                 </li>
                 <li className="flex items-center">
@@ -104,7 +104,7 @@ export const Pricing = () => {
                       />
                     </svg>
                   </div>
-                  <p className="font-medium text-gray-300">10 GB of storage</p>
+                  <p className="font-medium text-gray-300"> Lifetime access to updates</p>
                 </li>
                 <li className="flex items-center">
                   <div className="mr-3">
@@ -128,32 +128,9 @@ export const Pricing = () => {
                       />
                     </svg>
                   </div>
-                  <p className="font-medium text-gray-300">3 domains</p>
+                  <p className="font-medium text-gray-300">For individuals </p>
                 </li>
-                <li className="flex items-center">
-                  <div className="mr-3">
-                    <svg
-                      className="w-4 h-4 text-teal-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeWidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="#fff"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="#ff"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-medium text-gray-300">SSL Certificates</p>
-                </li>
+                
               </ul>
               <button
                 type="submit"
@@ -170,7 +147,7 @@ export const Pricing = () => {
             <div className="p-8 bg-gray-900 rounded">
               <div className="mb-4 text-center">
                 <p className="text-xl font-medium tracking-wide text-white">
-                  Enterprise
+                  Agency
                 </p>
                 <div className="flex items-center justify-center">
                   <p className="mr-2 text-5xl font-semibold text-white lg:text-6xl">
@@ -202,7 +179,7 @@ export const Pricing = () => {
                     </svg>
                   </div>
                   <p className="font-medium text-gray-300">
-                    100 deploys per day
+                    Complete Freelance OS
                   </p>
                 </li>
                 <li className="flex items-center">
@@ -227,7 +204,7 @@ export const Pricing = () => {
                       />
                     </svg>
                   </div>
-                  <p className="font-medium text-gray-300">50 GB of storage</p>
+                  <p className="font-medium text-gray-300">Lifetime access to updates</p>
                 </li>
                 <li className="flex items-center">
                   <div className="mr-3">
@@ -251,38 +228,15 @@ export const Pricing = () => {
                       />
                     </svg>
                   </div>
-                  <p className="font-medium text-gray-300">Unlimited domains</p>
+                  <p className="font-medium text-gray-300">For Agencies ( 5+ seats) </p>
                 </li>
-                <li className="flex items-center">
-                  <div className="mr-3">
-                    <svg
-                      className="w-4 h-4 text-teal-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeWidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="#fff"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="#fff"
-                      />
-                    </svg>
-                  </div>
-                  <p className="font-medium text-gray-300">SSL Certificates</p>
-                </li>
+               
               </ul>
               <button
                 type="submit"
-                className="inline-flex items-center bg-bl justify-center w-full h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center bg-bl justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
               >
-                Get it now 
+                We want this !
               </button>
             </div>
             <div className="w-11/12 h-2 mx-auto bg-gray-900 rounded-b opacity-75" />

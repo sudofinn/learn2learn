@@ -5,7 +5,17 @@
 
 
 
+
   
 @tailwind base;
 @tailwind components;
 @tailwind utilities; 
+
+@layer base {
+ 
+  
+  ::selection {
+  background: #F13D74;
+}
+
+}

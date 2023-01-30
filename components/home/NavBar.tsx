@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image"
+
+
+import FreelanceIcon from "../../assets/icons8-notion.svg"
 
 //import {Link} from "react-scroll"
 //( gives duplicate , might have to replace all next/link with react scroll link) ( programming with yash 1:49 h)
@@ -49,12 +53,7 @@ const NavBar: React.FC = () => {
     >
       <div>
         <Link href="/">
-          <h1
-            className="text-3xl font-signature hidden md:block font-extrabold shadow-md shadow-black
-                hover:shadow-xl  hover:bg-gradient-to-r  duration-500 ml-32"
-          >
-            Freelance OS
-          </h1>
+          <Image src={FreelanceIcon} className="h-24   " alt="Flowbite Logo" />
         </Link>
       </div>
 

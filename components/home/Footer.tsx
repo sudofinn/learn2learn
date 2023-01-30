@@ -1,13 +1,17 @@
 import React from 'react'
 import Link from "next/link"
 import Router from "next/router"
+import Image from "next/image"
 
-import { FaTwitter } from "react-icons/fa";
+import { FaRegImages, FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaTiktok } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import {AiFillHome} from "react-icons/ai"
 import {FaProductHunt} from "react-icons/fa"
+
+
+import FreelanceIcon from "../../assets/icons8-notion.svg"
 
 const Footer = () => {
 	
@@ -15,8 +19,8 @@ const Footer = () => {
 
 <footer className="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 font-extrabold ">
     <div className="sm:flex sm:items-center sm:justify-between">
-        <a href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0">
-            <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" />
+        <a href="https://flowbite.com/" className="flex items-center  mb-4 sm:mb-0">
+            <Image src={FreelanceIcon} className="h-24 -mr-12 " alt="Flowbite Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap ">Freelance OS</span>
         </a>
         <ul className="flex flex-wrap items-center mb-6 text-sm  sm:mb-0 ">

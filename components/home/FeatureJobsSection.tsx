@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image"
 import Primary from "../../assets/image 42.png"
+import PrimaryGif from "../../assets/2023-01-29-17-33-28.gif"
 
 const FeatureJobsSection = () => {
   return (
@@ -16,7 +17,7 @@ const FeatureJobsSection = () => {
             </ul>
 
              <Image
-            src={Primary}
+            src={PrimaryGif}
             alt="The Header"
             className="mt-12 mx-auto mb-12 w-2/3 shadow-xl shadow-black "
           />

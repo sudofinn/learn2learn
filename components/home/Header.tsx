@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className=" min-h-screen      ">
       <div className="  ">
-        <div className="text-center font-bold   ">
+        <div className="text-center font-extrabold  ">
           <h1
             className=" text-4xl sm:text-5xl xl:text-6xl 2xl:text-7xl
              mx-[4] sm:mx-[75px] md:mx-[150px] lg:mx-[300px]  2xl:mx-[500px]
