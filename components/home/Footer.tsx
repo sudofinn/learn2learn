@@ -17,29 +17,29 @@ const Footer = () => {
 	
   return (
 
-<footer className="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 font-extrabold ">
+<footer className="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 font-bold ">
     <div className="sm:flex sm:items-center sm:justify-between">
-        <a href="https://flowbite.com/" className="flex items-center  mb-4 sm:mb-0">
-            <Image src={FreelanceIcon} className="h-24 -mr-12 " alt="Flowbite Logo" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap ">Freelance OS</span>
-        </a>
-        <ul className="flex flex-wrap items-center mb-6 text-sm  sm:mb-0 ">
+        <Link href="/" className="flex items-center  mb-4 sm:mb-0">
+            <Image src={FreelanceIcon} className="h-14 lg:h-24 -mr-12 hover:scale-110 duration-200" alt="Flowbite Logo" />
+            <span className="self-center text-2xl  whitespace-nowrap ">Freelance OS</span>
+        </Link>
+        <ul className="flex flex-wrap items-center text-lg  lg:text-xl  mb-6  text-gray-800  sm:mb-0 ">
             <li>
-                <a href="#" className="mr-4 hover:underline md:mr-6 ">About</a>
+                <Link href="/terms" className="mr-4 hover:underline md:mr-6 ">Terms</Link>
             </li>
             <li>
-                <a href="#" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                <Link href="/privacy" className="mr-4 hover:underline md:mr-6">Privacy Policy</Link>
             </li>
             <li>
-                <a href="#" className="mr-4 hover:underline md:mr-6 ">Licensing</a>
+                <Link href="/impressum" className="mr-4 hover:underline md:mr-6 ">Impressum</Link>
             </li>
             <li>
-                <a href="#" className="hover:underline">Contact</a>
+                <Link href="/contact" className="hover:underline">Contact</Link>
             </li>
         </ul>
     </div>
     <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400"><a href="https://flowbite.com/" className="hover:underline">Freelance OS</a>. All Rights Reserved.
+    <span className="block text-sm  sm:text-center "><Link href="/" className="hover:underline">Freelance OS</Link>. All Rights Reserved.
     </span>
 </footer>
 

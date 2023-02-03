@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Link from "next/link";
 import Image from "next/image"
+
+import { useRouter } from 'next/router';
+
+import {Link} from "react-scroll"
 
 
 import FreelanceIcon from "../../assets/icons8-notion.svg"
@@ -20,31 +23,39 @@ const NavBar: React.FC = () => {
     {
       id: 1,
       link: "About",
-      href: "/products",
       style: "   ",
     },
 
     {
       id: 2,
       link: "Features",
-      href: "/templates",
       style: " ",
     },
 
     {
       id: 3,
       link: "Pricing",
-      href: "/other",
       style: " ",
     },
 
     {
       id: 4,
       link: "Get it now ",
-      href: "/reachout",
       style: "border-4 border-gray-900 border-double hover:bg-pk   ",
     },
   ];
+
+
+
+  
+  const router = useRouter()
+
+  const NavigateHome = () => {
+    router.push("/")
+  }
+  
+
+  
 
   return (
     <div
@@ -52,24 +63,23 @@ const NavBar: React.FC = () => {
              px-4 w-full h-20 text-black relative "
     >
       <div>
-        <Link href="/">
-          <Image src={FreelanceIcon} className="h-24   " alt="Flowbite Logo" />
-        </Link>
+        <button onClick={NavigateHome} >
+          <Image src={FreelanceIcon} className=" hidden md:block h-14 lg:h-20 hover:scale-110 duration-200  " alt="Flowbite Logo" />
+        </button>
       </div>
 
       {/* desktop */}
 
       <ul className="hidden lg:flex">
-        {links.map(({ id, link, href, style }) => (
-          <Link
+        {links.map(({ id, link, style }) => (
+          <li
             key={id}
-            href={href}
             className={`px-4 text-xl  cursor-pointer  transition duration-200  
              text-black hover:scale-105 mr-8 
              font-bold  ${style}`}
           >
-            {link}
-          </Link>
+            <Link to={link} smooth duration={1000}>{link}</Link>
+          </li>
         ))}
       </ul>
 
@@ -89,16 +99,15 @@ const NavBar: React.FC = () => {
                                 items-center 
                                 absolute   top-0 left-0 w-full h-screen   bg-pk  "
         >
-          {links.map(({ id, link, href, style }) => (
-            <Link
+          {links.map(({ id, link,  style }) => (
+            <li
               key={id}
-              href={href}
               className={`px-4  cursor-pointer   text-black py-4
                                 my-6 text-2xl font-extrabold transition duration-500 hover:scale-110  
                                 items-center  mr-3    rounded-xl ${style}`}
             >
-              {link}
-            </Link>
+               <Link onClick={() => setNav(!nav)} to={link} smooth duration={1000}>{link}</Link>
+            </li>
           ))}
         </ul>
       )}

@@ -1,13 +1,16 @@
 import React from "react";
 import Router from "next/router";
+import Image from "next/image"
+import Primary from "../../assets/freelance_os_discount.png"
+import PrimaryOtherVersion from "../../assets/freelance_os_discount_2.png"
 
 export const Pricing = () => {
   return (
-    <div className="relative w-full h-full ">
+    <div id="Pricing" className="relative w-full h-full ">
       <div className="absolute hidden w-full bg-gray-50  lg:block h-96" />
       <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-          <h2 className="max-w-lg mb-6 font-sans text-7xl font-extrabold leading-none tracking-tight text-gray-900  md:mx-auto">
+          <h2 className="max-w-lg mb-6 font-sans mt-32 text-5xl lg:text-5xl font-extrabold leading-none tracking-tight text-gray-900  md:mx-auto">
             <span className="relative inline-block  ">
               <svg
                 viewBox="0 0 52 24"
@@ -34,9 +37,9 @@ export const Pricing = () => {
               <div>
 
               </div>
-              <span className="relative   ">Affordable </span>
+              <span className="relative   ">Pricing </span>
             </span >{" "}
-            for everyone
+            
           </h2>
           <p className="text-base text-black md:text-2xl font-extrabold   inline-flex shadow-md shadow-black ">
             Buy once, own forever.
@@ -134,7 +137,7 @@ export const Pricing = () => {
               </ul>
               <button
                 type="submit"
-                className="inline-flex bg-pk items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex bg-pk hover:bg-[#e2537e] hover:text-black items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
                 I want this !
               </button>
@@ -151,7 +154,7 @@ export const Pricing = () => {
                 </p>
                 <div className="flex items-center justify-center">
                   <p className="mr-2 text-5xl font-semibold text-white lg:text-6xl">
-                    $250
+                    $200
                   </p>
                 </div>
               </div>
@@ -234,7 +237,7 @@ export const Pricing = () => {
               </ul>
               <button
                 type="submit"
-                className="inline-flex items-center bg-bl justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center bg-bl hover:bg-[#7E89D7] hover:text-black justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
               >
                 We want this !
               </button>
@@ -245,6 +248,11 @@ export const Pricing = () => {
           </div>
         </div>
       </div>
+      <Image
+            src={PrimaryOtherVersion}
+            alt="The Header"
+            className=" mx-auto mb-12 w-5/6 md:w-2/3  lg:w-1/4  "
+          />
     </div>
   );
 };
