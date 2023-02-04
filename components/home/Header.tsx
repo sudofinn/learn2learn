@@ -1,9 +1,13 @@
 import React from "react";
 import { useState } from "react";
+import Router from "next/router";
+
+import {Link} from "react-scroll"
+
+
 import Primary from "../../assets/freelance_os_premier_pic_2.png";
 import PrimarySecond from "../../assets/freelance_os_premier_pic_3.png"
 
-import Link from "next/link";
 import Image from "next/image";
 
 
@@ -23,6 +27,11 @@ import Image from "next/image";
 }
 
 const Header = () => {
+
+  function toPricing() {
+    Router.push
+  }
+
   return (
     <div className=" min-h-screen      ">
       <div className="  ">
@@ -46,12 +55,15 @@ const Header = () => {
             time plentiful.
           </h1>
 
+<Link to="Pricing" smooth duration={1000}>
 
-     <button  className="relative inline-block px-6  lg:px-10 py-2 lg:py-4 font-medium group">
-<span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
-<span className="absolute inset-0 w-full h-full bg-white border-2  border-black group-hover:bg-black"></span>
-<span className="relative text-xl lg:text-2xl text-black  font-extrabold group-hover:text-pk">Get Freelancer OS</span>
-</button>
+
+      <button   className="relative inline-block px-6  lg:px-10 py-2 lg:py-4 font-medium group">
+      <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+      <span className="absolute inset-0 w-full h-full bg-white border-2  border-black group-hover:bg-black"></span>
+      <span className="relative text-xl lg:text-2xl text-black  font-extrabold group-hover:text-pk">Get Freelancer OS</span>
+      </button>
+</Link>
 
           <Image
             src={PrimarySecond}

@@ -22,9 +22,9 @@ export default function Home() {
       <Head>
       <title>Freelance OS</title>
       <meta name="description" content="Freelance OS Notion Template" />
-      <meta
+       <meta
           property="og:image"
-          content="https://imgur.com/a/6WrJBbm"
+          content="../public/favicon.ico"
         />
     </Head>
     <NavBar />

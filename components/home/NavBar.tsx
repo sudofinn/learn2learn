@@ -22,26 +22,26 @@ const NavBar: React.FC = () => {
   const links = [
     {
       id: 1,
-      link: "About",
+      link: "Features",
       style: "   ",
     },
 
     {
       id: 2,
-      link: "Features",
+      link: "Automate",
       style: " ",
     },
+    {
+      id: 3,
+      link: "Customize",
+      style: " ",
+    },
+
 
     {
       id: 3,
       link: "Pricing",
-      style: " ",
-    },
-
-    {
-      id: 4,
-      link: "Get it now ",
-      style: "border-4 border-gray-900 border-double hover:bg-pk   ",
+      style: "border-4 border-gray-900 border-double hover:bg-pk  ",
     },
   ];
 

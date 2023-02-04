@@ -5,7 +5,7 @@ import PrimaryGif from "../../assets/2023-01-29-17-33-28.gif"
 
 const FeatureJobsSection = () => {
   return (
-    <div  id="About" className='text-center'>
+    <div  id="Features" className='text-center'>
 
         <h1   className="text-3xl xl:text-6xl   inline-flex  px-14 py-6 mb-4 font-extrabold 
           bg-pk text-black hover:bg-gray-200 duration-500 rounded 

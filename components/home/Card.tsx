@@ -5,6 +5,16 @@ import Primary from "../../assets/freelance_os_discount.png"
 import PrimaryOtherVersion from "../../assets/freelance_os_discount_2.png"
 
 export const Pricing = () => {
+
+  function forIndividuals() {
+    Router.push("https://vimfinn.gumroad.com/l/freelanceos?option=QdzkvnwGa0317bytnTsR-w%3D%3D&_gl=1*v81ue1*_ga*NjU1NjY0OTk2LjE2NDgwNjQ1Nzc.*_ga_6LJN6D94N6*MTY3NTUxNTg1MC4zNzkuMS4xNjc1NTE2NDM0LjAuMC4w&wanted=true")
+  }
+
+  function forBusinesses() {
+     Router.push("https://vimfinn.gumroad.com/l/freelanceos?option=Xu0nFqOG14SM_TjJs7IEgg%3D%3D&_gl=1*1p99o53*_ga*NjU1NjY0OTk2LjE2NDgwNjQ1Nzc.*_ga_6LJN6D94N6*MTY3NTUxNTg1MC4zNzkuMS4xNjc1NTE2NDM0LjAuMC4w&wanted=true")
+  }
+
+
   return (
     <div id="Pricing" className="relative w-full h-full ">
       <div className="absolute hidden w-full bg-gray-50  lg:block h-96" />
@@ -136,7 +146,7 @@ export const Pricing = () => {
                 
               </ul>
               <button
-                type="submit"
+                type="submit" onClick={forIndividuals}
                 className="inline-flex bg-pk hover:bg-[#e2537e] hover:text-black items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
                 I want this !
@@ -236,7 +246,7 @@ export const Pricing = () => {
                
               </ul>
               <button
-                type="submit"
+                type="submit" onClick={forBusinesses}
                 className="inline-flex items-center bg-bl hover:bg-[#7E89D7] hover:text-black justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
               >
                 We want this !

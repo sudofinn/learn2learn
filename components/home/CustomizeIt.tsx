@@ -6,7 +6,7 @@ import PrimaryNextVersion from "../../assets/freelance_os_customize_24.png"
 import PrimaryMobileVersion from "../../assets/freelance_cusotmize_mobile_2.png"
 const CustomizeIt = () => {
   return (
-    <div className='font-extrabold text-center mt-64'>
+    <div id="Customize" className='font-extrabold text-center mt-64'>
          <h1
             className=" text-4xl sm:text-6xl xl:text-6xl 2xl:text-7xl
              mx-4 sm:mx-[75px] md:mx-[150px] lg:mx-[300px]  2xl:mx-[700px]

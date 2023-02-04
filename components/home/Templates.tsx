@@ -6,7 +6,7 @@ import PrimaryVideo from "../../assets/2023-02-01-19-23-38.gif"
 
 const CustomizeIt = () => {
   return (
-    <div className='font-extrabold text-center mt-64'>
+    <div id="Automate" className='font-extrabold text-center mt-64'>
          <h1
             className=" text-4xl sm:text-6xl xl:text-6xl 2xl:text-7xl
              mx-4 sm:mx-[75px] md:mx-[50px] lg:mx-[300px]  2xl:mx-[650px]
