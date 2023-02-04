@@ -21,10 +21,10 @@ export default function Home() {
     <div>
       <Head>
       <title>Freelance OS</title>
-      <meta name="description" content="Freelance OS Notion Template" />
-       <meta
+       <meta name="description" content="Freelance OS Notion Template" />
+      <meta
           property="og:image"
-          content="../public/favicon.ico"
+          content="../public/images/favicon.ico"
         />
     </Head>
     <NavBar />
