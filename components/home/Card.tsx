@@ -51,13 +51,13 @@ export const Pricing = () => {
             </span >{" "}
             
           </h2>
-          <p className="text-base text-black md:text-2xl font-extrabold   inline-flex shadow-md shadow-black ">
+          <p className="text-base text-black md:text-2xl font-extrabold   inline-flex border-4 border-black rounded-md p-2 hover:bg-gradient-to-r from-bl to-pk ">
             Buy once, own forever.
           </p>
         </div>
         <div className="grid max-w-screen-md gap-10 md:grid-cols-2 sm:mx-auto">
-          <div>
-            <div className="p-8 bg-gray-900 rounded">
+          <div className="hover:scale-110 duration-500 ">
+            <div className="p-8 bg-gray-900 rounded ">
               <div className="mb-4 text-center">
                 <p className="text-xl font-medium tracking-wide text-white">
                   Individual
@@ -147,16 +147,18 @@ export const Pricing = () => {
               </ul>
               <button
                 type="submit" onClick={forIndividuals}
-                className="inline-flex bg-pk hover:bg-[#e2537e] hover:text-black items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex bg-pk hover:bg-[#e2537e] hover:text-black 
+                hover:border-2 hover:border-white 
+                items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
                 I want this !
               </button>
-            </div>
+            </div >
             <div className="w-11/12 h-2 mx-auto bg-gray-900 rounded-b opacity-75" />
             <div className="w-10/12 h-2 mx-auto bg-gray-900 rounded-b opacity-50" />
             <div className="w-9/12 h-2 mx-auto bg-gray-900 rounded-b opacity-25" />
           </div>
-          <div>
+          <div className="hover:scale-110 duration-500 ">
             <div className="p-8 bg-gray-900 rounded">
               <div className="mb-4 text-center">
                 <p className="text-xl font-medium tracking-wide text-white">
@@ -247,7 +249,9 @@ export const Pricing = () => {
               </ul>
               <button
                 type="submit" onClick={forBusinesses}
-                className="inline-flex items-center bg-bl hover:bg-[#7E89D7] hover:text-black justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
+                className="inline-flex items-center bg-bl hover:bg-[#7E89D7] hover:text-black
+                 hover:border-2 hover:border-white 
+                justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
               >
                 We want this !
               </button>

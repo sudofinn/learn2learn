@@ -5,8 +5,8 @@ import Router from "next/router";
 import {Link} from "react-scroll"
 
 
-import Primary from "../../assets/freelance_os_premier_pic_2.png";
 import PrimarySecond from "../../assets/freelance_os_premier_pic_3.png"
+import PrimarySecondVersion from "../../assets/freelance_os_premier_pic_new_version_1.png"
 
 import Image from "next/image";
 
@@ -66,9 +66,10 @@ const Header = () => {
 </Link>
 
           <Image
-            src={PrimarySecond}
+            src={PrimarySecondVersion}
             alt="The Header"
-            className="mt-12   mx-auto w-full   "
+            className="mt-12   mx-auto mb-64 w-5/6 lg:w-2/3
+            hover:scale-[1.01] duration-500   "
           />
         </div>
       </div>

@@ -24,7 +24,7 @@ export default function Home() {
        <meta name="description" content="Freelance OS Notion Template" />
       <meta
           property="og:image"
-          content="../public/images/favicon.ico"
+          content="../public/favicon.ico"
         />
     </Head>
     <NavBar />

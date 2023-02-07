@@ -25,7 +25,8 @@ const CustomizeIt = () => {
              <Image
             src={PrimaryVideo}
             alt="The Header"
-            className="mt-12 mx-auto mb-12 w-5/6 lg:w-1/3 shadow-lg shadow-black  "
+            className="mt-12 mx-auto mb-12 w-5/6 lg:w-1/3 border-8 border-black rounded-xl 
+            hover:scale-[1.03] duration-500  "
           />
     </div>
   )

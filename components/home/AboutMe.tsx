@@ -7,8 +7,8 @@ import Primary from "../../assets/codingnotes_thumbnail.png"
 const AboutMe = () => {
   return (
 
-    <div className='flex items-center justify-center mt-64 mb-64 mx-4  '>
-        <div className='w-full max-w-xl py-8 flex flex-row items-center justify-center mx-auto bg-[#FFFBFB] rounded-lg shadow-xl shadow-black font-bold'>
+    <div className='flex items-center justify-center mt-64 mb-64 mx-4 hover:scale-105 duration-500  '>
+        <div className='w-full max-w-xl py-8 flex flex-row items-center justify-center mx-auto bg-[#FFFBFB]   border-8 border-black rounded-xl font-bold'>
             <div className="flex flex-col md:flex-row  md:w-full space-x-0 md:space-x-16">
                 <div className="w-full md:w-2/5 flex flex-col items-center justify-center">
                     <figure className="w-1/2 md:w-full  rounded-full ml-0 lg:ml-8  overflow-hidden">
@@ -25,7 +25,8 @@ const AboutMe = () => {
                     
 
                     <Link href="https://twitter.com/coding_notes" target="_blank">
-                    <button className="transition-colors bg-pk hover:bg-[#e2537e] hover:text-black p-2 rounded-sm w-full text-white text-hover shadow-md shadow-black ">
+                    <button className="transition-colors bg-pk hover:bg-[#e2537e] hover:text-black 
+                    p-2  w-full text-white text-hover border-4 border-black rounded-xl ">
                         Follow me on Twitter for more content !
                     </button>
                     </Link>

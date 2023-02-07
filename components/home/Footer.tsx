@@ -38,7 +38,6 @@ const Footer = () => {
             </li>
         </ul>
     </div>
-    <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
     <span className="block text-sm  sm:text-center "><Link href="/" className="hover:underline">Freelance OS</Link>. All Rights Reserved.
     </span>
 </footer>

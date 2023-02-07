@@ -3,7 +3,10 @@ import Image from 'next/image'
 import PrimaryOtherVersion from "../../assets/freelance_os_customize_23.png"
 import PrimaryNextVersion from "../../assets/freelance_os_customize_24.png"
 
+import PrimarySecondVersion from "../../assets/freelance_os_customize_new_version.png"
+
 import PrimaryMobileVersion from "../../assets/freelance_cusotmize_mobile_2.png"
+import PrimaryMobileVersionSecond from "../../assets/freelance_customize_mobile_new_version.png"
 const CustomizeIt = () => {
   return (
     <div id="Customize" className='font-extrabold text-center mt-64'>
@@ -19,12 +22,13 @@ const CustomizeIt = () => {
           </h1>
 
              <Image
-            src={PrimaryNextVersion}
+            src={PrimarySecondVersion}
             alt="The Header"
-            className="hidden lg:block mt-12 mx-auto mb-12 w-5/6   "
+            className="hidden lg:block mt-12 mx-auto mb-12 w-5/6
+            hover:scale-105 duration-500   "
           />
              <Image
-            src={PrimaryMobileVersion}
+            src={PrimaryMobileVersionSecond}
             alt="The Header"
             className="block lg:hidden mt-12 mx-auto mb-12 w-full   "
           />
