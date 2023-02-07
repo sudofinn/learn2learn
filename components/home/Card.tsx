@@ -17,7 +17,7 @@ export const Pricing = () => {
 
   return (
     <div id="Pricing" className="relative w-full h-full ">
-      <div className="absolute hidden w-full bg-gray-50  lg:block h-96" />
+      <div className="absolute hidden w-full   lg:block h-96" />
       <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <h2 className="max-w-lg mb-6 font-sans mt-32 text-5xl lg:text-5xl font-extrabold leading-none tracking-tight text-gray-900  md:mx-auto">

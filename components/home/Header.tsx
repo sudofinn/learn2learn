@@ -68,6 +68,7 @@ const Header = () => {
           <Image
             src={PrimarySecondVersion}
             alt="The Header"
+            priority={true}
             className="mt-12   mx-auto mb-64 w-5/6 lg:w-2/3
             hover:scale-[1.01] duration-500   "
           />

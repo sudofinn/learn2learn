@@ -42,19 +42,19 @@ const Index = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2 bg-bl text-black  border-black rounded-md focus:outline-none"
+              className="p-2 bg-bl text-black  border-black rounded-md focus:outline-none border-4  "
             />
             <input
               type="text"
               name="email"
               placeholder="Enter your email"
-              className="my-4 text-black p-2  bg-pk rounded-md  focus:outline-none"
+              className="my-4 text-black p-2  bg-pk rounded-md  border-4 border-black focus:outline-none"
             />
             <textarea
               name="message"
               placeholder="Enter your message"
               rows={9}
-              className="p-2 text-black bg-gradient-to-r from-pk to-bl border-2 rounded-md border-black  focus:outline-none"
+              className="p-2 text-black bg-gradient-to-r from-pk to-bl  rounded-md border-black border-4  focus:outline-none"
             ></textarea>
 
            <button  className="relative mt-4  items-center px-12 py-3 overflow-hidden text-2xl  text-black  border-bl border-4 rounded-md hover:text-white group hover:bg-gray-50">
