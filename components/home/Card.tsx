@@ -262,11 +262,7 @@ export const Pricing = () => {
           </div>
         </div>
       </div>
-      <Image
-            src={PrimaryOtherVersion}
-            alt="The Header"
-            className=" mx-auto mb-12 w-5/6 md:w-2/3  lg:w-1/4  "
-          />
+
     </div>
   );
 };
