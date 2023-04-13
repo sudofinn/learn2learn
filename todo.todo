@@ -1,0 +1,18 @@
+No-code stuff
+1. make the sections i copied from easlo a bit different so that there will be no conflict between 
+the two of us
+2. make the whole thing to make an agencies one ( just with a different choice of words)
+
+
+
+
+Code/website stuff
+1. make video play only when in viewport
+2. make new pictures and videos after completing task 1 from no-code stuff ( changing easlo stuff)
+3. get it responsive ( which will be hard )
+
+
+Specific code/websites stuff
+1. Sections.tsx make video play at 1.5 to 2 times the speed ( hence our Notion is slow af)
+2. Show.tsx use different mackup mockup ( the grey does not fit)
+3. AllColors.tsx add all color sources ( 4)
