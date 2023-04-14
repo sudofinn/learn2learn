@@ -20,12 +20,9 @@ const Footer = () => {
        <div className=' flex justify-center pb-64'>
         
         <Image className='flex md:hidden' src={HeaderPic} alt="Header" />
-        <Image className='hidden md:flex lg:hidden' src={HeaderPicMtoL} alt="Header" />
+        <Image className='hidden md:flex ' src={HeaderPicMtoL} alt="Header" />
 
-        <video autoPlay  muted loop playsInline className='hidden lg:flex'>         
-           <source src="/videos/header_vid.mp4" type="video/mp4"/>       
-        </video>
-        {/*add autoPlay prop to play */}
+        
 
     </div> 
     </div>
@@ -36,3 +33,25 @@ const Footer = () => {
 }
 
 export default Footer
+
+
+{/* 
+return (
+    <div className="bg-black"  >
+      <h1 className='text-5xl pt-16 pb-16 text-center font-extrabold 
+      block md:hidden text-white'>Plan.Work.Earn.</h1>
+       <div className=' flex justify-center pb-64'>
+        
+        <Image className='flex md:hidden' src={HeaderPic} alt="Header" />
+        <Image className='hidden md:flex lg:hidden' src={HeaderPicMtoL} alt="Header" />
+
+        <video autoPlay  muted loop playsInline className='hidden lg:flex'>         
+           <source src="/videos/header_vid.mp4" type="video/mp4"/>       
+        </video>
+
+    </div> 
+    </div>
+
+
+
+  )*/}
