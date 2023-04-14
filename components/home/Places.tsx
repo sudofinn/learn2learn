@@ -6,12 +6,12 @@ const Places = () => {
   return (
     <div>
          <div className=' flex justify-center pb-64 bg-black
-       lg:hidden'>
+       xl:hidden'>
         <Image src={IpadSingle} alt="Single ipad" className='' />
         {/*add autoPlay prop to play */}
     </div> 
       <div className='  justify-center pb-64 bg-black
-      hidden lg:flex'>
+      hidden xl:flex'>
         <video autoPlay  muted loop className='w-full lg:w-5/6' >         
            <source src="/videos/workonfly.mp4" type="video/mp4" />       
         </video>
