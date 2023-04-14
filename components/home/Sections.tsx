@@ -67,7 +67,7 @@ const Sections = () => {
         </video>
         {/*add autoPlay prop to play */}
 
-        <video autoPlay  muted loop className='flex playsInline mx-auto lg:hidden w-5/6 shadow-xl shadow-white rounded-xl' >         
+        <video autoPlay  muted loop playsInline className='flex   mx-auto lg:hidden w-5/6 shadow-xl shadow-white rounded-xl' >         
            <source src="/videos/section_lightmono.mp4" type="video/mp4" />       
         </video>
         {/*add autoPlay prop to play */}
@@ -148,7 +148,7 @@ const Sections = () => {
         </video>
         {/*add autoPlay prop to play */}
 
-        <video autoPlay  muted loop className='flex playsInline mx-auto lg:hidden w-5/6 shadow-xl shadow-white rounded-xl' >         
+        <video autoPlay  muted loop playsInline className='flex  mx-auto lg:hidden w-5/6 shadow-xl shadow-white rounded-xl' >         
            <source src="/videos/section_darkmono.mp4" type="video/mp4" />       
         </video>
         {/*add autoPlay prop to play */}
@@ -228,7 +228,7 @@ const Sections = () => {
         </video>
         {/*add autoPlay prop to play */}
 
-        <video autoPlay  muted loop className='flex playsInline mx-auto lg:hidden w-5/6 shadow-xl shadow-white rounded-xl' >         
+        <video autoPlay  muted loop  playsInline className='flex  mx-auto lg:hidden w-5/6 shadow-xl shadow-white rounded-xl' >         
            <source src="/videos/section_lightcolorful.mp4" type="video/mp4" />       
         </video>
         {/*add autoPlay prop to play */}
@@ -306,7 +306,7 @@ const Sections = () => {
         </video>
         {/*add autoPlay prop to play */}
 
-        <video autoPlay  muted loop className='flex playsInline mx-auto lg:hidden w-5/6 shadow-xl shadow-white rounded-xl' >         
+        <video autoPlay  muted loop playsInline className='flex  mx-auto lg:hidden w-5/6 shadow-xl shadow-white rounded-xl' >         
            <source src="/videos/section_darkcolorful.mp4" type="video/mp4" />       
         </video>
         {/*add autoPlay prop to play */}
