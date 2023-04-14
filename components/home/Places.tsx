@@ -14,12 +14,10 @@ const Places = () => {
     </div> 
       <div className='  justify-center pb-64 bg-black
       hidden xl:flex'>
-        <LazyLoad>
         <video autoPlay  muted loop className='w-full lg:w-5/6' >         
            <source src="/videos/workonfly.mp4" type="video/mp4" />       
         </video>
         {/*add autoPlay prop to play */}
-        </LazyLoad>
     </div> 
      
     
@@ -33,12 +31,10 @@ const Places = () => {
     </div> 
       <div className='  justify-center pb-64 bg-black
       hidden lg:flex'>
-        <LazyLoad>
         <video autoPlay  muted loop className='w-full lg:w-5/6' >         
            <source src="/videos/workondesktop.mp4" type="video/mp4" />       
         </video>
         {/*add autoPlay prop to play */}
-        </LazyLoad>
     </div> 
 
     </div>

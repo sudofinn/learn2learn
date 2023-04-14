@@ -39,12 +39,10 @@ const AllColors = () => {
 
       <div className=' flex justify-center pb-64'>
          <Image className='flex lg:hidden pt-16' src={HeaderPic} alt="Header" />
-         <LazyLoad>
         <video autoPlay  muted loop className='hidden lg:flex' >         
            <source src="/videos/allcolorsfinal.mp4" type="video/mp4"/>       
         </video>
         {/*add autoPlay prop to play */}
-         </LazyLoad>
 
     </div>
 
