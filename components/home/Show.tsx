@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image"
 import {Link} from "react-scroll"
+import LazyLoad from 'react-lazy-load';
 
 
 
@@ -37,10 +38,12 @@ const Show = () => {
       </div>
 
       <div className=' flex justify-center pb-64 mt-8 '>
+        <LazyLoad>
         <video autoPlay  muted loop playsInline className=''  >         
            <source src="/videos/completesystem.mp4" type="video/mp4"/>       
         </video>
         {/*add autoPlay prop to play */}
+        </LazyLoad>
 
     </div>
 

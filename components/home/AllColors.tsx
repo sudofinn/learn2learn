@@ -2,6 +2,9 @@ import React from 'react'
 import {Link} from "react-scroll"
 import Image from "next/image"
 
+import LazyLoad from 'react-lazy-load';
+
+
 
 import HeaderPic from "../../assets/three_pic.png"
 
@@ -36,10 +39,12 @@ const AllColors = () => {
 
       <div className=' flex justify-center pb-64'>
          <Image className='flex lg:hidden pt-16' src={HeaderPic} alt="Header" />
+         <LazyLoad>
         <video autoPlay  muted loop className='hidden lg:flex' >         
            <source src="/videos/allcolorsfinal.mp4" type="video/mp4"/>       
         </video>
         {/*add autoPlay prop to play */}
+         </LazyLoad>
 
     </div>
 

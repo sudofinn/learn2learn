@@ -3,6 +3,9 @@ import {useRouter} from "next/router"
 import Image from 'next/image'
 import UnsurePic from "../../assets/unsure_img.jpeg"
 
+
+import LazyLoad from 'react-lazy-load';
+
 const Affiliate = () => {
   const router = useRouter()
   const ToAffiliates = () => {
@@ -40,9 +43,11 @@ const Affiliate = () => {
             </button>
       </div>
       <div className="w-full lg:w-2/3  ">
+        <LazyLoad>
         <video autoPlay  muted loop playsInline >         
            <source src="/videos/affiliate_vid.mp4" type="video/mp4"/>       
         </video>
+        </LazyLoad>
       </div>
     </div>
   </div>
