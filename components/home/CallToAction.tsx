@@ -11,7 +11,7 @@ const CallToAction = () => {
           
             <Image className='flex lg:hidden' src={CTAPicture} alt="Header" />
         <video autoPlay  muted loop className='w-5/6 hidden lg:flex' >         
-           <source src="/videos/instant_access.mp4" type="video/mp4" />       
+           <source src="/videos/instant_access_cropped.mp4" type="video/mp4" />       
         </video>
         {/*add autoPlay prop to play */}
 

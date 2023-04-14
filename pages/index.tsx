@@ -50,9 +50,7 @@ export default function Home() {
 
     <Unsure />
 
-    <LazyLoad>
     <Affiliate />
-    </LazyLoad>
 
     <ReferTo />
 
