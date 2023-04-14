@@ -40,7 +40,7 @@ const Affiliate = () => {
             </button>
       </div>
       <div className="w-full lg:w-2/3  ">
-        <video autoPlay  muted loop >         
+        <video autoPlay  muted loop playsInline >         
            <source src="/videos/affiliate_vid.mp4" type="video/mp4"/>       
         </video>
       </div>

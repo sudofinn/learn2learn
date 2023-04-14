@@ -22,7 +22,7 @@ const Places = () => {
 
       <div className=' flex justify-center pb-64 bg-black
        lg:hidden'>
-        <video autoPlay  muted loop className='w-full lg:w-5/6' >         
+        <video autoPlay  muted loop playsInline className='w-full lg:w-5/6' >         
            <source src="/videos/workondesktop_cropped.mp4" type="video/mp4" />       
         </video>
         {/*add autoPlay prop to play */}
