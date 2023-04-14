@@ -32,57 +32,33 @@ export default function Home() {
     </Head>
     <Header />
 
-   <LazyLoad>
     <Features />
-   </LazyLoad>
 
-   <LazyLoad>
     <Sections />
-   </LazyLoad>
 
-   <LazyLoad>
     <Show />
-   </LazyLoad>
 
-   <LazyLoad>
     <AllColors />
-   </LazyLoad>
    
-   <LazyLoad>
     <Phone />
-   </LazyLoad>
 
-   <LazyLoad>
     <Places />
-   </LazyLoad>
 
-    <LazyLoad>
     <CallToAction />
-    </LazyLoad>
 
-    <LazyLoad>
     <Pricing />
-    </LazyLoad>
 
-    <LazyLoad>
     <Unsure />
-    </LazyLoad>
 
     <LazyLoad>
     <Affiliate />
     </LazyLoad>
 
-    <LazyLoad>
     <ReferTo />
-    </LazyLoad>
 
-    <LazyLoad>
     <SecondCallToAction />
-    </LazyLoad>
 
-    <LazyLoad>
     <Footer />
-    </LazyLoad>
 
     
     {/*
