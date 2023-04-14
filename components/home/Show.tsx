@@ -37,7 +37,7 @@ const Show = () => {
       </div>
 
       <div className=' flex justify-center pb-64 mt-8 '>
-        <video autoPlay  muted loop  >         
+        <video autoPlay  muted loop className='playsInline'  >         
            <source src="/videos/completesystem.mp4" type="video/mp4"/>       
         </video>
         {/*add autoPlay prop to play */}
