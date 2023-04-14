@@ -17,13 +17,11 @@ const Footer = () => {
 	
   return (
     <div className="bg-black"  >
-      <h1 className='text-5xl pt-16 pb-16 text-center font-extrabold block lg:hidden text-white'>Plan.Work.Earn.</h1>
+      <h1 className='text-5xl pt-16 pb-16 text-center font-extrabold block  text-white'>Plan.Work.Earn.</h1>
        <div className=' flex justify-center pb-64'>
         
-        <Image className='flex lg:hidden' src={HeaderPic} alt="Header" />
-        <video autoPlay  muted loop playsInline className='hidden lg:flex'>         
-           <source src="/videos/header_vid.mp4" type="video/mp4"/>       
-        </video>
+        <Image className='flex ' src={HeaderPic} alt="Header" />
+        
         {/*add autoPlay prop to play */}
 
     </div> 
