@@ -4,6 +4,9 @@ import MockupPhone from "../../assets/planfreelanceos_features1.png"
 import MockupIpadMini from "../../assets/workfreelanceos_feature2.png"
 import MockupImac from "../../assets/earnfreelanceos_features3.png"
 
+import LazyLoad from 'react-lazy-load';
+
+
 const Features = () => {
   return (
 

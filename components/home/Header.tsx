@@ -21,7 +21,7 @@ const Footer = () => {
        <div className=' flex justify-center pb-64'>
         
         <Image className='flex lg:hidden' src={HeaderPic} alt="Header" />
-        <video autoPlay  muted loop className='hidden lg:flex'>         
+        <video autoPlay  muted loop playsInline className='hidden lg:flex'>         
            <source src="/videos/header_vid.mp4" type="video/mp4"/>       
         </video>
         {/*add autoPlay prop to play */}

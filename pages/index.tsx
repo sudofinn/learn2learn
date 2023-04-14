@@ -16,6 +16,7 @@ import Affiliate from '@/components/home/Affiliate'
 import ReferTo from '@/components/home/Referto'
 import SecondCallToAction from '@/components/home/SecondCallToAction'
 import Footer from '../components/home/Footer'
+import LazyLoad from 'react-lazy-load';
 
 
 export default function Home() {
@@ -30,19 +31,60 @@ export default function Home() {
         />
     </Head>
     <Header />
+
+   <LazyLoad>
     <Features />
+   </LazyLoad>
+
+   <LazyLoad>
     <Sections />
+   </LazyLoad>
+
+   <LazyLoad>
     <Show />
+   </LazyLoad>
+
+   <LazyLoad>
     <AllColors />
+   </LazyLoad>
+   
+   <LazyLoad>
     <Phone />
+   </LazyLoad>
+
+   <LazyLoad>
     <Places />
+   </LazyLoad>
+
+    <LazyLoad>
     <CallToAction />
+    </LazyLoad>
+
+    <LazyLoad>
     <Pricing />
+    </LazyLoad>
+
+    <LazyLoad>
     <Unsure />
+    </LazyLoad>
+
+    <LazyLoad>
     <Affiliate />
+    </LazyLoad>
+
+    <LazyLoad>
     <ReferTo />
+    </LazyLoad>
+
+    <LazyLoad>
     <SecondCallToAction />
+    </LazyLoad>
+
+    <LazyLoad>
     <Footer />
+    </LazyLoad>
+
+    
     {/*
   */}
    
