@@ -36,7 +36,7 @@ cookie template
     </Head>  
 
       <div className=" max-w-screen-lg text-2xl mx-auto pt-12  text-center  p-4 flex flex-col justify-center w-full h-full text-white">
-<h1 className="text-7xl font-extrabold mt-16 mb-16    ">Cookie Policy </h1>
+<h1 className="text-5xl lg:text-7xl font-extrabold mt-16 mb-16    ">Cookie Policy </h1>
 
 
 <p>We and Gumroad use cookies and similar technologies. This Cookie Policy explains how we use cookies in connection with the Platform and your related choices.

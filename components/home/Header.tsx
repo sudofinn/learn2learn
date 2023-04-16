@@ -9,7 +9,8 @@ import Image from "next/image"
 
 
 import HeaderPic from "../../assets/header_pic.png"
-import HeaderPicMtoL from "../../assets/header_mtol_pic.png"
+//import HeaderPicMtoL from "../../assets/header_mtol_pic.png"
+import HeaderFinalPicMtoL from "../../assets/header_final.png"
 
 const Footer = () => {
 	
@@ -20,7 +21,7 @@ const Footer = () => {
        <div className=' flex justify-center pb-64'>
         
         <Image className='flex md:hidden' src={HeaderPic} alt="Header" />
-        <Image className='hidden md:flex ' src={HeaderPicMtoL} alt="Header" />
+        <Image className='hidden md:flex ' src={HeaderFinalPicMtoL} alt="Header" />
 
         
 

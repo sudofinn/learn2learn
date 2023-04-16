@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from "next/link"
 //import ReferToPic from "../../assets/referto_img.jpeg"
 import ReferToPic from "../../assets/salefriend_freelanceos_mockup_blackwhite_cropped.jpeg"
 
@@ -17,6 +18,7 @@ const ReferTo = () => {
         <h2 className=" text-4xl md:text-5xl font-extrabold "> <span className='text-black bg-white'>Love it ?</span> Tell your friends about it 
         and get a free template for every sale you refer to.</h2>
 
+        <Link href="/referto">
          <button className="relative mt-4  items-center px-12 py-3 overflow-hidden text-2xl  text-white hover:bg-white hover:text-black border-white  border-4 rounded-md  group ">
               <span className="absolute left-0 block w-full h-0 transition-all  opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
               <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
@@ -35,8 +37,9 @@ const ReferTo = () => {
                   ></path>
                 </svg>
               </span>
-              <span className="relative">Get started here !</span>
+              <span className="relative">Learn more !</span>
             </button>
+            </Link>
       </div>
       
     </div>

@@ -2,18 +2,22 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 
-import SecondCallToAction from "@/components/home/SecondCallToAction";
 
 
+import SecondCallToActionEx from "@/components/home/SecondCallToActionforEx";
 import Footer from "@/components/home/Footer";
 
 
 const Affiliates = () => {
   return (
     <div className=" min-h-screen bg-black text-white   ">
+      <Head>
+        <title>Affiliates</title>
+        <meta name="description" content="Affiliates for the  Freelance OS" />
+      </Head>
    <section className="bg-black text-white pt-32 ">
         <div className="container px-6 py-10 mx-auto text-center">
-        <h1 className="text-7xl font-extrabold   ">Earn <span className="bg-white text-black ">money</span> sharing Freelance OS</h1>
+        <h1 className="text-5xl lg:text-7xl font-extrabold   ">Earn <span className="bg-white text-black ">money</span> sharing Freelance OS</h1>
         
         {/*
         <p className="mt-4 text-black xl:mt-6 ">
@@ -74,6 +78,8 @@ const Affiliates = () => {
          </div>
            
        </section>  
+
+       <Link href="https://vimfinn.gumroad.com/affiliates">
        <button className="relative mx-auto flex align-start mt-4  items-center px-12 py-3 overflow-hidden text-2xl  text-white hover:bg-white hover:text-black border-white  border-4 rounded-md  group ">
               <span className="absolute left-0 block w-full h-0 transition-all  opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
               <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
@@ -94,7 +100,11 @@ const Affiliates = () => {
               </span>
               <span className="relative">Sign up to become an affiliate</span>
             </button>
-       <SecondCallToAction />
+            </Link>
+
+            <SecondCallToActionEx />
+
+            
        <Footer />
     </div>
   );

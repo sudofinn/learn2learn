@@ -2,12 +2,17 @@ import React from 'react'
 import Image from "next/image"
 import Footer from '@/components/home/Footer'
 import Link from 'next/link'
+import Head from 'next/head'
 
 import PhotoMe from "../assets/author_photo.png"
 
 const founder = () => {
   return (
-    <div className='bg-black pt-32 w-full h-screen mb-16 '>
+    <div className='bg-black pt-0 lg:pt-32 w-full min-h-screen lg:h-screen mb-16 '>
+      <Head>
+        <title>Founder</title>
+        <meta name="description" content="Founder of the  Freelance OS" />
+      </Head>
    <div className="mx-5">
   <div className="">
     <div className="max-w-lg mx-auto   overflow-hidden shadow-lg bg-white text-black rounded-xl">
@@ -59,3 +64,5 @@ const founder = () => {
 }
 
 export default founder
+
+{/* Source: https://dev.to/codewithkenn/how-i-built-the-link-in-bio-page-using-html-tailwind-css-319c*/}

@@ -6,14 +6,14 @@ import Footer from "@/components/home/Footer";
 
 const Terms = () => {
   return (
-    <div className="min-h-screen bg-black text-white  ">
+    <div className="bg-black  max-w-screen-lg mx-auto pt-12  text-center  p-4 flex flex-col justify-center w-full h-full text-white  ">
       <Head>
         <title>Privacy</title>
         <meta name="description" content="Privacy for Freelance OS" />
       </Head>
 
-      <div className=" max-w-screen-lg text-2xl  mx-auto pt-12  text-center  p-4 flex flex-col justify-center w-full h-full ">
-        <h1 className="text-7xl font-extrabold mt-16 mb-16   ">
+      <div className="  ">
+        <h1 className="text-5xl lg:text-7xl font-extrabold mt-16 mb-16   ">
           PRIVACY NOTICE{" "}
         </h1>
         <p>Last updated January 10, 2023 </p>

@@ -22,16 +22,16 @@ const Footer = () => {
 						</Link>
 						<div className="flex gap-6 pb-5 hover:shadow-xl shadow-black duration-500">
 
-							<Link href="https://twitter.com/coding_notes" target="_blank">
+							<Link href="/" target="_blank">
 								<FaTwitter className="text-2xl cursor-pointer  " />
 							</Link>
 							
 
-							<Link href="https://www.youtube.com/@officialcodingnotes" target="_blank">
+							<Link href="/" target="_blank">
 								<FaYoutube className="text-2xl cursor-pointer  duration-300" />
 							</Link>
 
-							<Link href="https://www.tiktok.com/@coding_notes" target="_blank">
+							<Link href="/" target="_blank">
 								<FaTiktok className="text-2xl cursor-pointer  duration-300" />
 							</Link>
 
@@ -52,14 +52,14 @@ const Footer = () => {
 				<div className="p-5 ">
 					<ul>
 						<p className="font-extrabold text-3xl pb-4">Company </p>
-						<li  onClick={() => Router.push("/products")} className=" font-extrabold text-md pb-2   cursor-pointer">
+						<li  onClick={() => Router.push("/about")} className=" font-extrabold text-md pb-2   cursor-pointer">
 							About
 						</li>
 						
-						<li onClick={() => Router.push("/templates")} className=" text-md pb-2 font-extrabold   cursor-pointer">
+						<li onClick={() => Router.push("/founder")} className=" text-md pb-2 font-extrabold   cursor-pointer">
 							Founder
 						</li>
-						<li onClick={() => Router.push("/other")} className=" text-md pb-2 font-extrabold   cursor-pointer">
+						<li onClick={() => Router.push("/affiliates")} className=" text-md pb-2 font-extrabold   cursor-pointer">
 							Affiliate program
 							
 						</li>
@@ -68,15 +68,15 @@ const Footer = () => {
 				<div className="p-5">
 					<ul>
 						<p className=" font-extrabold  text-3xl pb-4">Product</p>
-						<li onClick={() => Router.push("/tags")} className=" text-md pb-2 font-extrabold  cursor-pointer">
+						<li onClick={() => Router.push("/changelog")} className=" text-md pb-2 font-extrabold  cursor-pointer">
 							Changelog
 						</li>
-						<li onClick={() => Router.push("/thirdparty")} className=" text-md pb-2 font-extrabold   cursor-pointer">
+						<li onClick={() => Router.push("/blog")} className=" text-md pb-2 font-extrabold   cursor-pointer">
 							Blog
 						</li>
 						
 						
-						<li onClick={() => Router.push("/sources")} className=" text-md pb-2 font-extrabold  cursor-pointer">
+						<li onClick={() => Router.push("/suggestatemplate")} className=" text-md pb-2 font-extrabold  cursor-pointer">
 							Suggest a Template
 						</li>
 						<li onClick={() => Router.push("/contact")} className=" text-md pb-2 font-extrabold  cursor-pointer">

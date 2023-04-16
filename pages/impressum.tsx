@@ -15,7 +15,7 @@ const Terms = () => {
       </Head>
 
       <div className=" unselectable text-2xl max-w-screen-lg mb-32 mx-auto pt-12  italic text-center  p-4 flex flex-col justify-center w-full h-full ">
-        <h1 className="text-7xl font-extrabold mt-16 mb-16    ">Impressum </h1>
+        <h1 className="text-5xl lg:text-7xl font-extrabold mt-16 mb-16    ">Impressum </h1>
         <p className="">
           Freelance OS was designed in Germany. Therefore, an
           &apos;impressum&apos; ( imprint ) is necessary.

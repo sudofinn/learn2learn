@@ -16,7 +16,7 @@ const Terms = () => {
       </Head>
 
       <div className=" max-w-screen-lg text-2xl mx-auto pt-12  text-center  p-4 flex flex-col justify-center w-full h-full ">
-        <h1 className="text-7xl font-extrabold mt-16 mb-16   ">
+        <h1 className="text-5xl lg:text-7xl font-extrabold mt-16 mb-16   ">
           TABLE OF CONTENTS{" "}
         </h1>
         <ul className="my-4">

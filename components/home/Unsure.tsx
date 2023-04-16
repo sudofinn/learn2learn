@@ -14,12 +14,14 @@ const Unsure = () => {
         <Image className=" " src={UnsurePic } alt="Mockup of iphone"/>
       </div>
       <div className="w-full lg:w-1/3  ">
-        <h2 className=" text-4xl md:text-5xl font-extrabold "> <span className='text-black bg-white'>Unsure ?</span> Get weekly and detailed
-         insights into what the OS has to offer.</h2>
+        <h2 className=" text-4xl md:text-5xl font-extrabold "> <span className='text-black bg-white'>Unsure ?</span> Get weekly 
+         insights about the OS and Freelancing in general.</h2>
 
-        <form>
-            <input type="email" className='border-white mt-8 mb-4 px-2 py-3  border-4 bg-black text-2xl text-white rounded-md' placeholder='example@gmail.com'></input>
-          </form>
+        <form
+        action={process.env.NEXT_PUBLIC_KEY}
+            method="POST">
+            <input type="email" name="nametwo" className='border-white mt-8 mb-4 px-2 py-3  border-4 bg-black text-2xl text-white rounded-md' placeholder='example@gmail.com'></input>
+          
          <button className="relative mt-4  items-center px-12 py-3 overflow-hidden text-2xl  text-white hover:bg-white hover:text-black border-white  border-4 rounded-md  group ">
               <span className="absolute left-0 block w-full h-0 transition-all  opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
               <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
@@ -40,6 +42,7 @@ const Unsure = () => {
               </span>
               <span className="relative">Sign me up !</span>
             </button>
+            </form>
           
             
             

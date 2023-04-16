@@ -7,7 +7,7 @@ import PrimaryOtherVersion from "../../assets/freelance_os_discount_2.png"
 export const Pricing = () => {
 
   function forIndividuals() {
-    Router.push("https://vimfinn.gumroad.com/l/freelanceos?option=QdzkvnwGa0317bytnTsR-w%3D%3D&_gl=1*v81ue1*_ga*NjU1NjY0OTk2LjE2NDgwNjQ1Nzc.*_ga_6LJN6D94N6*MTY3NTUxNTg1MC4zNzkuMS4xNjc1NTE2NDM0LjAuMC4w&wanted=true")
+    Router.push("https://vimfinn.gumroad.com/l/freelanceos?wanted=true")
   }
 
   function forBusinesses() {
@@ -56,7 +56,7 @@ export const Pricing = () => {
           <div className="  duration-500 ">
             <div className="p-8 bg-white rounded ">
               <div className="mb-4 text-center">
-                <p className="text-xl font-medium tracking-wide text-black">
+                <p className="text-2xl font-medium tracking-wide text-black">
                   Individual
                 </p>
                 <div className="flex items-center justify-center">
@@ -65,7 +65,7 @@ export const Pricing = () => {
                   </p>
                 </div>
               </div>
-              <ul className="mb-8 space-y-2">
+              <ul className="mb-8 space-y-2 text-2xl">
                 <li className="flex items-center">
                   <div className="mr-3">
                     <svg
@@ -144,7 +144,7 @@ export const Pricing = () => {
               </ul>
               <button
                 type="submit" onClick={forIndividuals}
-                className="inline-flex bg-black text-white
+                className="inline-flex bg-black text-white text-2xl
                 
                 items-center justify-center w-full h-12 px-6 font-medium tracking-wide   rounded shadow-md bg-deep-purple-accent-400 "
               >
@@ -167,7 +167,7 @@ export const Pricing = () => {
                   </p>
                 </div>
               </div>
-              <ul className="mb-8 space-y-2">
+              <ul className="mb-8 space-y-2 text-xl">
                 <li className="flex items-center">
                   <div className="mr-3">
                     <svg
@@ -246,7 +246,7 @@ export const Pricing = () => {
               </ul>
               <button
                 type="submit" onClick={forBusinesses}
-                className="inline-flex items-center bg-black text-white
+                className="inline-flex items-center bg-black text-white text-xl
                   
                 justify-center w-full h-12 px-6 font-semibold tracking-wide   rounded shadow-md "
               >

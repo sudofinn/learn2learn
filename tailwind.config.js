@@ -11,11 +11,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        'bl': '#7D8AE8',
-        'pk': '#F13D74'
-      }
+      keyframes: {
+         fadeIn: {
+           "0%": { opacity: 0 },
+          "100%": { opacity: 100 },
+       },
+       },
+       animation: {
+        fadeIn: "fadeIn 0.2s ease-in-out forwards",
+      },
     },
   },
   plugins: [],
 }
+
