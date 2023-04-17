@@ -6,18 +6,15 @@ import Script from 'next/script'
 
 const IntroVid = () => {
   return (
-    <div className='bg-black text-white flex justify-center pb-32'>
-
-      <ReactPlayer width="1500px" height="800px"  url='https://www.youtube.com/watch?v=jy6KagCc-6w' />
-
-      
-     
-    
-    
-
-      
-
-    </div>
+     <div className='player-wrapper'>
+        <ReactPlayer
+          className='react-player'
+          url='https://www.youtube.com/watch?v=jy6KagCc-6w&'
+          width='100%'
+          height='100%'
+          controls
+        />
+      </div>
   )
 }
 
