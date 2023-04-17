@@ -35,6 +35,7 @@ export default function Home() {
           content="../public/favicon.ico"
         />
     </Head>
+    
     <Header />
 
    <LazyLoad>
