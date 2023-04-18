@@ -4,7 +4,7 @@ import Footer from '@/components/home/Footer'
 import Link from 'next/link'
 import Head from 'next/head'
 
-import PhotoMe from "../assets/author_photo.png"
+import PhotoMe from "../assets/notion_avatar.png"
 
 const founder = () => {
   return (
