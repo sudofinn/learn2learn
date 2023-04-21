@@ -11,7 +11,7 @@ const Features = () => {
   return (
 
     <div>
-        <section className="relative py-0  lg:py-32 text-white bg-black  overflow-hidden">
+        <section className="relative py-32  lg:py-32 text-white bg-black  overflow-hidden">
   <div className="container px-4 mx-auto">
     <div className="flex flex-wrap items-center ">
       <div className="w-full md:w-1/2 lg:w-1/3 p-8">

@@ -15,6 +15,7 @@ import Pricing from '@/components/home/Pricing'
 import FAQ from '@/components/home/FAQ'
 import Support from '@/components/home/Support'
 import FullWalkthrough from '@/components/home/FullWalkthrough'
+import AgencyOnly from '@/components/home/AgencyOnly'
 import Unsure from '@/components/home/Unsure'
 import Affiliate from '@/components/home/Affiliate'
 import ReferTo from '@/components/home/Referto'
@@ -63,10 +64,13 @@ export default function Home() {
     <Support />
 
     <LazyLoad>
+
+
     <FullWalkthrough />
 
     </LazyLoad>
 
+   <AgencyOnly />
 
 
     <Unsure />
