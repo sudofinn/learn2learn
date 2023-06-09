@@ -9,7 +9,7 @@ const Places = () => {
     <div>
          <div className=' flex justify-center pb-64 bg-black
        xl:hidden'>
-        <Image src={IpadSingle} alt="Single ipad" className='' />
+        <Image src={IpadSingle} alt="Single ipad" className='w-full lg:w-2/3' />
         {/*add autoPlay prop to play */}
     </div> 
       <div className='  justify-center pb-64 bg-black
