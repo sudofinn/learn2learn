@@ -6,7 +6,7 @@ import Script from 'next/script'
 
 const IntroVid = () => {
   return (
-     <div className='player-wrapper '>
+     <div  className='player-wrapper flex md:hidden lg:flex '>
         <ReactPlayer
           className='react-player'
           url='https://www.youtube.com/watch?v=jy6KagCc-6w&'
