@@ -63,10 +63,12 @@ export default function Home() {
 
     <Support />
 
+    <LazyLoad>
 
 
     <FullWalkthrough />
 
+    </LazyLoad>
 
    <AgencyOnly />
 
