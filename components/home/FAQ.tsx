@@ -16,7 +16,7 @@ const FAQ = () => {
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> Who is the Freelance OS for ?</span>
 					<span className="transition group-open:rotate-180">
-                <svg className='hidden md:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                <svg className='hidden xl:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
 </svg>
               </span>
 				</summary>
@@ -30,7 +30,7 @@ const FAQ = () => {
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> Is the payment secure ?</span>
 					<span className="transition group-open:rotate-180">
-                <svg  className='hidden md:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                <svg  className='hidden xl:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
 </svg>
               </span>
 				</summary>
@@ -44,7 +44,7 @@ const FAQ = () => {
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> What payment options get accepted ?</span>
 					<span className="transition group-open:rotate-180">
-                <svg  className='hidden md:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                <svg  className='hidden xl:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
 </svg>
               </span>
 				</summary>
@@ -59,7 +59,7 @@ const FAQ = () => {
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> Can I apply for Non-profit, NGO, and educational discounts? </span>
 					<span className="transition group-open:rotate-180">
-                <svg  className='hidden md:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                <svg  className='hidden xl:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
 </svg>
               </span>
 				</summary>
@@ -73,7 +73,7 @@ const FAQ = () => {
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> How do I start using the OS ?</span>
 					<span className="transition group-open:rotate-180">
-                <svg  className='hidden md:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                <svg  className='hidden xl:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
 </svg>
               </span>
 				</summary>
@@ -88,7 +88,7 @@ const FAQ = () => {
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> I know nothing about Notion, can I still use the OS ?</span>
 					<span className="transition group-open:rotate-180">
-                <svg  className='hidden md:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                <svg  className='hidden xl:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
 </svg>
               </span>
 				</summary>
@@ -103,7 +103,7 @@ const FAQ = () => {
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> Can I share the OS ?</span>
 					<span className="transition group-open:rotate-180">
-                <svg  className='hidden md:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                <svg  className='hidden xl:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
 </svg>
               </span>
 				</summary>
@@ -118,7 +118,7 @@ const FAQ = () => {
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> How do I receive future updates ?</span>
 					<span className="transition group-open:rotate-180">
-                <svg  className='hidden md:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                <svg  className='hidden xl:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
 </svg>
               </span>
 				</summary>
@@ -132,7 +132,7 @@ const FAQ = () => {
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> What if I still have questions ?</span>
 					<span className="transition group-open:rotate-180">
-                <svg  className='hidden md:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                <svg  className='hidden xl:flex' fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
 </svg>
               </span>
 				</summary>
