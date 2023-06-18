@@ -39,9 +39,7 @@ export default function Home() {
     
     <Header />
 
-   <LazyLoad>
     <IntroVid />
-    </LazyLoad> 
 
     <Features />
 
