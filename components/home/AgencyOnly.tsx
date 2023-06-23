@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from "next/image"
 
+import {Link} from "react-scroll"
+
 import AgencyPic from "../../assets/agencyonly_final.png"
 import AgencyPicSm from "../../assets/agencyfinal_sm_final.png"
 
@@ -12,10 +14,10 @@ const AgencyOnly = () => {
         <p  className='text-2xl mx-auto w-2/3  lg:w-1/3 text-center pb-8 xl:pb-0 '>Then go for the Business version with added features 
         for multiple people.</p>
 
-        <Image className=" mx-auto hidden lg:flex " src={AgencyPic} alt="Mockup of ipad"/>
-        <Image className=" mx-auto flex lg:hidden " src={AgencyPicSm} alt="Mockup of ipad small"/>
+        <Image className=" mx-auto hidden lg:flex pb-32" src={AgencyPic} alt="Mockup of ipad"/>
+        <Image className=" mx-auto flex lg:hidden pb-32 " src={AgencyPicSm} alt="Mockup of ipad small "/>
 
-
+      
     </div>
   )
 }

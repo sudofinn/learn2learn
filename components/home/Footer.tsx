@@ -22,18 +22,15 @@ const Footer = () => {
 						</Link>
 						<div className="flex gap-6 pb-5 hover:shadow-xl shadow-black duration-500">
 
-							<Link href="/" target="_blank">
+							<Link href="https://twitter.com/notionfreelance" target="_blank">
 								<FaTwitter className="text-2xl cursor-pointer  " />
 							</Link>
 							
 
-							<Link href="/" target="_blank">
+							<Link href="https://www.youtube.com/channel/UCGwAFdwyFG7rtQcevsQz1LQ" target="_blank">
 								<FaYoutube className="text-2xl cursor-pointer  duration-300" />
 							</Link>
 
-							<Link href="/" target="_blank">
-								<FaTiktok className="text-2xl cursor-pointer  duration-300" />
-							</Link>
 
 
 							<Link href="/" >

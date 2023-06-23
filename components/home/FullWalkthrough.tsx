@@ -9,7 +9,7 @@ const IntroVid = () => {
      <div className='player-wrapper '>
         <ReactPlayer
           className='react-player'
-          url='https://www.youtube.com/watch?v=hJTwN6NKG-I'
+          url='https://www.youtube.com/watch?v=2HtLL8cuoTw'
           width='100%'
           height='100%'
           controls
