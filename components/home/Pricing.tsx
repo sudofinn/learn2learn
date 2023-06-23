@@ -61,7 +61,10 @@ export const Pricing = () => {
                 </p>
                 <div className="flex items-center justify-center">
                   <p className="mr-2 text-5xl font-semibold text-black lg:text-6xl">
-                    $39
+                    $39 
+                  </p>
+                  <p className="mr-2 text-3xl font-semibold text-black lg:text-4xl line-through">
+                    $59 
                   </p>
                 </div>
               </div>
@@ -164,6 +167,9 @@ export const Pricing = () => {
                 <div className="flex items-center justify-center">
                   <p className="mr-2 text-5xl font-semibold text-black lg:text-6xl">
                     $255
+                  </p>
+                  <p className="mr-2 text-3xl font-semibold text-black lg:text-4xl line-through">
+                    $389
                   </p>
                 </div>
               </div>
