@@ -3,7 +3,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import Header from "../components/home/Header"
-import IntroVid from '@/components/home/IntroVid'
 import Features from '@/components/home/Features'
 import Pricing from '@/components/home/Pricing'
 import FAQ from '@/components/home/FAQ'

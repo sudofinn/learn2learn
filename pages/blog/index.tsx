@@ -2,7 +2,6 @@ import React from 'react'
 import Head from "next/head";
 
 
-import SecondCallToActionEx from "@/components/home/SecondCallToActionforEx";
 import Footer from '@/components/home/Footer'
 
 const index = () => {
@@ -20,7 +19,6 @@ const index = () => {
            <source src="/videos/support_vid.mp4" type="video/mp4" />       
         </video>
         
-        <SecondCallToActionEx />
         <Footer />
 
 

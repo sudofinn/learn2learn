@@ -5,7 +5,6 @@ import Link from "next/link";
 
 
 
-import SecondCallToActionEx from "@/components/home/SecondCallToActionforEx";
 import Footer from "@/components/home/Footer";
 
 
@@ -126,8 +125,6 @@ const ReferTo = () => {
 
        
           
-
-            <SecondCallToActionEx />
 
             
        <Footer />
