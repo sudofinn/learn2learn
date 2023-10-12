@@ -15,7 +15,7 @@ import Router from "next/router"
 import LaptopMockup from "../../assets/covers/htmlcss_mockup_final.png"
 
 
-import { Slide } from 'react-slideshow-image';
+//import { Slide } from 'react-slideshow-image';
 //import 'react-slideshow-image/dist/styles.css'
 
 
