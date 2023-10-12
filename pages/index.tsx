@@ -12,7 +12,6 @@ import Unsure from '@/components/home/Unsure'
 import ReferTo from '@/components/home/Referto'
 import Footer from '../components/home/Footer'
 import { FaQq } from 'react-icons/fa'
-import LazyLoad from 'react-lazy-load';
 
 import Explain from '@/components/home/Explain'
 import Founder from './founder'
