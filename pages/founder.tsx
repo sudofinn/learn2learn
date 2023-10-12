@@ -1,38 +1,36 @@
 import React from 'react'
 import Image from "next/image"
-import Footer from '@/components/home/Footer'
 import Link from 'next/link'
 import Head from 'next/head'
 
-import PhotoMe from "../assets/notion_avatar.png"
+import PhotoMe from "../assets/finnguha_photo_cutshort.png"
+import Support from "../assets/walloflove_finnguha.jpg"
 
-const founder = () => {
+
+
+const Founder = () => {
   return (
-    <div className='bg-black pt-0 lg:pt-32 w-full min-h-screen lg:h-screen mb-16 '>
-      <Head>
-        <title>Founder</title>
-        <meta name="description" content="Founder of the  Freelance OS" />
-      </Head>
+    <div className='bg-black pt-0 lg:pt-32 w-full min-h-screen lg:h-screen mt-32  '>
    <div className="mx-5">
   <div className="">
-    <div className="max-w-lg mx-auto   overflow-hidden shadow-lg bg-white text-black rounded-xl">
+    <div className="max-w-2xl mx-auto   overflow-hidden shadow-lg bg-white text-black rounded-xl">
       <Image className="object-cover rounded-full h-48 w-48 mx-auto mt-8 p-1 border-4 border-black" src={PhotoMe} alt="Author" />
       <div className="px-6 py-4 ">
         <div className="flex flex-col">
             <Link href="https://www.google.com/search?q=vimfinn" target='_blank'>
-          <div className="font-bold text-xl text-center hover:cursor-pointer">@vimfinn</div>
+          <div className="font-bold text-xl text-center hover:cursor-pointer">@finnguha</div>
           </Link>
-          <p className="text-sm text-center">Notion enthusiast</p>
-          <p className="text-sm text-center">Web developer</p>
+          <p className="text-sm text-center">Web Developer</p>
+          <p className="text-sm text-center">Author of learn2learn.guide</p>
         </div>
       </div>
 
       <div className="flex flex-col mx-auto text-mirage-500">
-        <a href="https://twitter.com/coding_notes" target="__blank" className="flex flex-row mx-auto my-2 bg-black text-white w-2/4 text-mirage-500 py-2 pl-2 rounded-md  border-r-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-twitter my-auto" viewBox="0 0 16 16">
-            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-          </svg>
-          <h4 className="my-auto font-semibold mx-5">Twitter</h4>
+        <a href="https://x.com/finnguha" target="__blank" className="flex flex-row mx-auto my-2 bg-red-600 text-white w-2/4 text-mirage-500 py-2 pl-2 rounded-md  border-r-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+</svg>
+          <h4 className="my-auto font-semibold mx-5">𝕏 (fka Twitter )</h4>
         </a>
         <a href="https://www.youtube.com/@officialcodingnotes" target="__blank" className="flex flex-row mx-auto my-2 bg-black text-white w-2/4 text-mirage-500 py-2 pl-2 rounded-md ">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-youtube" viewBox="0 0 16 16">
@@ -40,7 +38,7 @@ const founder = () => {
           </svg>
           <h4 className="my-auto font-semibold mx-5">Youtube</h4>
         </a>
-        <a href="https://github.com/sudofinn" target="__blank" className="flex flex-row mx-auto my-2 bg-black text-white w-2/4 text-mirage-500 py-2 pl-2 rounded-md  border-r-4">
+        <a href="https://github.com/sudofinn" target="__blank" className="flex flex-row mx-auto my-2 bg-red-600 text-white w-2/4 text-mirage-500 py-2 pl-2 rounded-md  border-r-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
           </svg>
@@ -52,15 +50,15 @@ const founder = () => {
         </a>
         
       </div>
-      <div className="text-white text-xs text-center mt-12 mb-4"></div>
+      <div className="text-white text-xs text-center mt-12 "></div>
     </div>
   </div>
 </div> 
-<Footer />
+
 </div>
   )
 }
 
-export default founder
+export default Founder
 
 {/* Source: https://dev.to/codewithkenn/how-i-built-the-link-in-bio-page-using-html-tailwind-css-319c*/}

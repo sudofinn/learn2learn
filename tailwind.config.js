@@ -17,10 +17,16 @@ module.exports = {
           "100%": { opacity: 100 },
        },
        },
+        fontFamily: {
+        sans: ['var(--font-permanent_marker)'],
+        
+      },
+
        animation: {
         fadeIn: "fadeIn 0.2s ease-in-out forwards",
       },
     },
+    
   },
   plugins: [],
 }

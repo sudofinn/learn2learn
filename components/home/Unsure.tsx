@@ -14,8 +14,8 @@ const Unsure = () => {
         <Image className=" " src={UnsurePic } alt="Mockup of iphone"/>
       </div>
       <div className="w-full lg:w-1/3  ">
-        <h2 className=" text-4xl md:text-5xl font-extrabold "> <span className='text-black bg-white'>Unsure ?</span> Get weekly 
-         insights about the OS and Freelancing in general.</h2>
+        <h2 className=" text-4xl md:text-6xl font-extrabold text-red-600 "> <span className='underline decoration-red-600 text-white'>Learn the secrets</span> to becoming
+        a top 1% leaner.</h2>
 
         <form
         action={process.env.NEXT_PUBLIC_KEY}

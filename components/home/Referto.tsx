@@ -15,8 +15,8 @@ const ReferTo = () => {
         <Image src={ReferToPic} alt="this"  className='  mt-12  ' />
       </div>
       <div className="w-full lg:w-1/3  ">
-        <h2 className=" text-4xl md:text-5xl font-extrabold "> <span className='text-black bg-white'>Love it ?</span> Tell your friends about it 
-        and get a free template for every sale you refer to.</h2>
+        <h2 className=" text-4xl md:text-5xl font-extrabold "> <span className='text-red-600 underline decoration-white'>Love it ?</span> Feel free to tell your friends about this newsletter. 
+        I bet they will like it too.</h2>
 
         <Link href="/referto">
          <button className="relative mt-4  items-center px-12 py-3 overflow-hidden text-2xl  text-white hover:bg-white hover:text-black border-white  border-4 rounded-md  group ">
@@ -25,7 +25,7 @@ const ReferTo = () => {
                 <svg
                   className="w-5 h-5"
                   fill="none"
-                  stroke="currentColor"
+                  stroke="#dc2626"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -37,7 +37,7 @@ const ReferTo = () => {
                   ></path>
                 </svg>
               </span>
-              <span className="relative">Learn more !</span>
+              <span className="relative text-red-600">Share the link !</span>
             </button>
             </Link>
       </div>

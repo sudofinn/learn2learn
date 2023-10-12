@@ -5,88 +5,74 @@ import styles from '../styles/Home.module.css'
 import Header from "../components/home/Header"
 import IntroVid from '@/components/home/IntroVid'
 import Features from '@/components/home/Features'
-import Sections from '@/components/home/Sections'
-import Show from '@/components/home/Show'
-import AllColors from '@/components/home/AllColors'
-import Phone from '@/components/home/Phone'
-import Places from '@/components/home/Places'
-import CallToAction from '@/components/home/CallToAction'
 import Pricing from '@/components/home/Pricing'
 import FAQ from '@/components/home/FAQ'
 import Support from '@/components/home/Support'
-import FullWalkthrough from '@/components/home/FullWalkthrough'
-import AgencyOnly from '@/components/home/AgencyOnly'
 import Unsure from '@/components/home/Unsure'
-import Affiliate from '@/components/home/Affiliate'
 import ReferTo from '@/components/home/Referto'
-import SecondCallToAction from '@/components/home/SecondCallToAction'
 import Footer from '../components/home/Footer'
 import { FaQq } from 'react-icons/fa'
 import LazyLoad from 'react-lazy-load';
 
+import Explain from '@/components/home/Explain'
+import Founder from './founder'
+import Walloflove from '@/components/home/walloflove'
+
+
+import NavBar from '@/components/home/NavBar'
+
+import FirstCarousel from '@/components/home/FirstCarousel'
+import CTA from '@/components/home/CTA'
+import SocialProof from '@/components/home/SocialProof'
+
+
+//import { Inter } from 'next/font/google'
+ 
+// If loading a variable font, you don't need to specify the font weight
+//const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
-    <div className=''>
+    <div className="bg-[#101010]">
       <Head>
-      <title>Freelance OS</title>
-       <meta name="description" content="Freelance OS Notion Template" />
+      <title>Learn2Learn</title>
+       <meta name="description" content="The Learn2Learn newsletter !" />
       <meta
           property="og:image"
           content="../public/favicon.ico"
         />
     </Head>
     
+
+   
+   <NavBar />
+
     <Header />
 
-   <LazyLoad>
-    <IntroVid />
-    </LazyLoad> 
+    <FirstCarousel />
+
+    <Explain />
 
     <Features />
 
-    <Sections />
+    <Founder />
+    <Walloflove />
 
-    <Show />
-
-    <AllColors />
-   
-    <Phone />
-
-    <Places />
-
-    <CallToAction />
-
-    <Pricing />
-
+    <CTA />
+    <SocialProof />
     <FAQ />
-
-    <Support />
-
-    <LazyLoad>
-
-
-    <FullWalkthrough />
-
-    </LazyLoad>
-
-   <AgencyOnly />
-   
 
 
     <Unsure />
 
-    <Affiliate />
 
     <ReferTo />
-
-    <SecondCallToAction />
 
     <Footer />
 
     
-    {/*
-  */}
+   
    
    
 

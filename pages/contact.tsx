@@ -5,7 +5,7 @@ import CTAPic from "../assets/secondcalltoaction_cropped.png"
 
 import Link from "next/link";
 
-import SecondCallToActionEx from "@/components/home/SecondCallToActionforEx";
+import Unsure from "@/components/home/Unsure";
 import Footer from "@/components/home/Footer";
 import { FaMoon, FaSun } from "react-icons/fa";
 
@@ -86,7 +86,8 @@ const Index = () => {
       </div>
 
 
-    <SecondCallToActionEx />
+      <Unsure />
+
       <Footer />
     </div>
   );
