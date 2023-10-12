@@ -10,7 +10,7 @@ import AnkiTransform from "../../assets/howankitransformedthis.png"
 import ArrowThick from "../../assets/arrow_curved_thick.png"
 import ArrowToLeftThick from "../../assets/arrow_curvedtoleft_thick.png"
 
-import LazyLoad from 'react-lazy-load';
+//import LazyLoad from 'react-lazy-load';
 
 
 const Features = () => {
