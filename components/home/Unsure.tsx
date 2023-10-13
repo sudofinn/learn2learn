@@ -20,7 +20,8 @@ const Unsure = () => {
         <form
         action={process.env.NEXT_PUBLIC_KEY}
             method="POST">
-            <input type="email" name="nametwo" className='border-white mt-8 mb-4 px-2 py-3  border-4 bg-black text-3xl text-white rounded-md' placeholder='example@gmail.com'></input>
+            <input type="email" name="nametwo" className='border-white mt-8  px-2 py-3  border-4 bg-black text-3xl text-white rounded-md' placeholder='example@gmail.com'></input>
+            <input type="name" name="namethree" className='border-white mt-4 mb-4 px-2 py-3  border-4 bg-black text-3xl text-white rounded-md' placeholder='Your Name (optional)'></input>
           
          <button className="relative mt-4  items-center px-12 py-3 overflow-hidden text-3xl  text-white hover:bg-white hover:text-black border-white  border-4 rounded-md  group ">
               <span className="absolute left-0 block w-full h-0 transition-all  opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
