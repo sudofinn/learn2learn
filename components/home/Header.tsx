@@ -18,16 +18,12 @@ const Header = () => {
 	
   return (
     <div className=""  >
-      <h1 className='text-8xl pt-16 pb-16 text-center font-bold 
-      block  text-red-600 '>Learning right must be learnt</h1>
+      <h1 className='text-7xl lg:text-8xl  pb-16 text-center font-bold px-8
+       text-red-600 '>Learning right must be learnt</h1>
 
       <Image src={AnkiHeaderPic} alt="Anki Header Pic" className='flex justify-center items-center mx-auto mb-16' />
+{/* we need other img for phone size */}
 
-{/*
-        <video autoPlay  muted loop className='hidden  lg:flex mx-auto w-5/6 shadow-xl shadow-white rounded-xl' >         
-           <source src="/videos/section1_final_freelanceos.mp4" type="video/mp4" />       
-        </video>
-  */}
 <div className="flex justify-center">
   <Link href="#product" className="hover:text-black hover:bg-red-600   text-white text-4xl   border-red-600 border-4 p-8
   text-center   ">Join the Club !</Link>
@@ -37,17 +33,7 @@ const Header = () => {
 
 
 
-       <div className=' flex justify-center '>
-        
-       {/*
-        <video autoPlay  muted loop className='hidden  lg:flex mx-auto w-5/6  shadow-xl shadow-white rounded-xl' >         
-           <source src="/videos/finnguha_intro_vid_final_1.mp4" type="video/mp4" />       
-        </video>
-  */}
-
-        
-
-    </div> 
+      
     </div>
 
 

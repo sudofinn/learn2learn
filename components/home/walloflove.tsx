@@ -20,7 +20,7 @@ import {FaMousePointer} from "react-icons/fa"
 
 const Walloflove = () => {
   return (
-    <div className='flex justify-center items-center mx-auto w-2/3  flex-col'>
+    <div className='flex justify-center items-center mx-auto w-full lg:w-2/3  flex-col'>
 
 <div>
       <Image src={ArrowThick} alt="Arrow Thick"  className="mx-auto mb-16"/>
@@ -53,7 +53,7 @@ const Walloflove = () => {
       years without taking a day off. </h1>
       
       <Image src={AnkiOne} alt="Image One"  className="mb-8"/>
-      <Image src={AnkiTwo} alt="Image One" className="w-1/3 mb-16" />
+      <Image src={AnkiTwo} alt="Image One" className="w-full lg:w-1/3 mb-16" />
 
 
       <h1 className='text-5xl pb-8 mt-32 text-center 

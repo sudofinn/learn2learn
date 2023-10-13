@@ -18,7 +18,7 @@ const Footer = () => {
 					<ul>
 						<Link href="/">
 						<p className="  duration-500 font-extrabold text-red-600 text-4xl pb-6">
-							Learn2Learn.guide
+							Learn2Learn
 						</p>
 						</Link>
 						<div className="flex gap-6 pb-5 hover:shadow-xl shadow-black duration-500">

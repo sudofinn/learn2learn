@@ -52,30 +52,33 @@ export default function Home() {
 
     <Explain />
 
-    <Features />
+    {/*<Features /> */}
 
     <Founder />
+
     <Walloflove />
 
     <CTA />
+
     <SocialProof />
+
+
     <FAQ />
 
-
-    <Unsure />
-
+<Unsure />
 
     <ReferTo />
-
+    
     <Footer />
 
-    
-   
-   
-   
 
-   
-  
+    
+
+{/* 
+
+
+
+*/}
 
     </div>
   )

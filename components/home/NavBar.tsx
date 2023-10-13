@@ -106,7 +106,7 @@ const NavBar : React.FC = () => {
             {nav && (
                 <ul className="flex flex-col justify-center 
                                 items-center 
-                                absolute   top-0 left-0 w-full h-screen   bg-gray-900  ">
+                                absolute   top-0 left-0 w-full h-screen   bg-black ">
 
                     {links.map(({ id, link, href, style}) => (
                     <Link

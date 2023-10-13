@@ -8,22 +8,22 @@ const SocialProof = () => {
   return (
     <div className='mt-32 mb-32'>
 
-      <h1 className='text-7xl pt-16 pb-16 text-center font-bold w-2/3  mx-auto
+      <h1 className='text-7xl pt-16 pb-16 text-center font-bold w-full lg:w-2/3  mx-auto
       block  text-red-600 '>People invest a lot of time to learn new things.</h1>
 
       <Image src={LifeLongLearnStatistic} alt="Life long learn statistic"
-      className='mx-auto w-1/2' />
+      className='mx-auto w-full lg:w-1/2' />
 
 
-      <h1 className='text-7xl pt-16 pb-16 text-center font-bold  w-2/3  mx-auto
+      <h1 className='text-7xl pt-16 pb-16 text-center font-bold  w-full lg:w-2/3  mx-auto
       block  text-white '>But few take the time to learn how to learn.</h1>
 
 
-      <h1 className='text-6xl pt-16 pb-8 text-center font-bold  w-2/3  mx-auto
+      <h1 className='text-6xl pt-16 pb-8 text-center font-bold   w-full lg:w-2/3  mx-auto
       block  text-red-600 '>Because few know that this is important.</h1>
-      <h1 className='text-6xl pt-8 pb-8 text-center font-bold  w-2/3  mx-auto
+      <h1 className='text-6xl pt-8 pb-8 text-center font-bold   w-full lg:w-2/3  mx-auto
       block  text-red-600 '>But now you know.</h1>
-      <h1 className='text-6xl pt-8 pb-8 text-center font-bold  w-2/3  mx-auto
+      <h1 className='text-6xl pt-8 pb-8 text-center font-bold   w-full lg:w-2/3  mx-auto
       block  text-red-600 '>So take your chance now , spend 10 seconds to enter your mail and start
       receiving emails.</h1>
 

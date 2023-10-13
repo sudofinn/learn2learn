@@ -14,7 +14,7 @@ const CTA = () => {
       <h1 className='text-5xl pt-16 pb-16 text-center font-bold underline 
       block  text-white '>This is what you will receive !</h1>
 
-      <ul className=' text-white w-1/2 flex justify-center mx-auto flex-col'>
+      <ul className=' text-white   w-full lg:w-1/2 flex justify-center mx-auto flex-col'>
         <li className='text-5xl pt-8 pb-8 text-center font-bold 
          text-white  '> ➔ One article per week</li>
 
