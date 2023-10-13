@@ -6,7 +6,7 @@ import UnsurePic from "../../assets/unsure_mockup.jpeg"
 
 const Unsure = () => {
   return (
-    <div>
+    <div id="SignUp">
            <section className="relative py-32 text-white bg-black  overflow-hidden">
   <div className="container px-4 ">
     <div className="flex flex-wrap items-center ">
@@ -14,15 +14,15 @@ const Unsure = () => {
         <Image className=" " src={UnsurePic } alt="Mockup of iphone"/>
       </div>
       <div className="w-full lg:w-1/3  ">
-        <h2 className=" text-4xl md:text-6xl font-extrabold text-red-600 "> <span className='underline decoration-red-600 text-white'>Learn the secrets</span> to becoming
-        a top 1% leaner.</h2>
+        <h2 className=" text-4xl md:text-7xl font-extrabold text-red-600 "> <span className='underline decoration-red-600 text-white'>Learn the secrets</span> to becoming
+        a top 1% learner.</h2>
 
         <form
         action={process.env.NEXT_PUBLIC_KEY}
             method="POST">
-            <input type="email" name="nametwo" className='border-white mt-8 mb-4 px-2 py-3  border-4 bg-black text-2xl text-white rounded-md' placeholder='example@gmail.com'></input>
+            <input type="email" name="nametwo" className='border-white mt-8 mb-4 px-2 py-3  border-4 bg-black text-3xl text-white rounded-md' placeholder='example@gmail.com'></input>
           
-         <button className="relative mt-4  items-center px-12 py-3 overflow-hidden text-2xl  text-white hover:bg-white hover:text-black border-white  border-4 rounded-md  group ">
+         <button className="relative mt-4  items-center px-12 py-3 overflow-hidden text-3xl  text-white hover:bg-white hover:text-black border-white  border-4 rounded-md  group ">
               <span className="absolute left-0 block w-full h-0 transition-all  opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
               <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
                 <svg

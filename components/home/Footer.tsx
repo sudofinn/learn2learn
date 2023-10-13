@@ -13,7 +13,7 @@ const Footer = () => {
 	
   return (
 		<>
-			<div className="  pt-32 h-1/2 bg-black text-white  w-full flex md:flex-row flex-col justify-around items-start p-20">
+			<div className="  pt-32 h-1/2 bg-black text-white text-3xl w-full flex md:flex-row flex-col justify-around items-start p-20">
 				<div className="p-5  ">
 					<ul>
 						<Link href="/">
@@ -23,14 +23,15 @@ const Footer = () => {
 						</Link>
 						<div className="flex gap-6 pb-5 hover:shadow-xl shadow-black duration-500">
 
+							<Link href="/" >
+								<AiFillHome className="text-2xl cursor-pointer  duration-300" />
+							</Link>
+							
 							<Link href="https://x.com/finnguha" target="_blank">
 								<RiTwitterXLine className="text-2xl cursor-pointer  " />
 							</Link>
 
 
-							<Link href="/" >
-								<AiFillHome className="text-2xl cursor-pointer  duration-300" />
-							</Link>
 
 
 

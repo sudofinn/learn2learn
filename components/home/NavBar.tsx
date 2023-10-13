@@ -1,6 +1,7 @@
 import React, {useState} from "react"
 import {FaBars, FaTimes} from "react-icons/fa"
-import Link from "next/link"
+
+import {Link} from "react-scroll"
 
 //import {Link} from "react-scroll" 
 //( gives duplicate , might have to replace all next/link with react scroll link) ( programming with yash 1:49 h)
@@ -31,28 +32,28 @@ const NavBar : React.FC = () => {
         {
             id:1,
             link: "Why",
-            href: "/products",
+            to: "Why",
             style: "hover:text-black hover:bg-red-600   text-white border  border-red-600 border-4 p-2   ",
         },
 
         {
             id:2,
-            link: "Sections",
-            href:"/templates",
+            link: "Author",
+            to:"Author",
             style:"hover:text-black hover:bg-red-600   text-white border  border-red-600 border-4 p-2  "
         },
 
         {
             id:3,
-            link: "Author",
-            href: "/other",
+            link: "How",
+            to: "How",
             style:"hover:text-black hover:bg-red-600   text-white border  border-red-600 border-4 p-2  "
         },
 
         {
             id:4,
             link: "Sign me up !",
-            href: "/reachout",
+            to: "SignUp",
             style:"hover:text-black hover:bg-white hover:text-black bg-red-600 text-white border  border-red-600 border-4 p-2    "
         },
 
@@ -64,7 +65,7 @@ const NavBar : React.FC = () => {
         <div className="flex justify-between items-center 
              px-4 w-full h-20 bg-black text-white relative ">
             <div>
-                <Link href="/">
+                <Link to="Learning" smooth duration={2000}>
                 <h1 className="text-4xl font-signature hidden md:block text-black font-extrabold bg-gradient-to-r from-white to-red-600
                 hover:shadow-xl shadow-white hover:text-black hover:bg-gradient-to-r hover:from-red-600 hover:to-white duration-500 ml-32">Learn2Learn</h1>
                 </Link>
@@ -74,10 +75,10 @@ const NavBar : React.FC = () => {
 
             <ul className="hidden lg:flex">
                 
-             {links.map(({ id, link, href , style }) => (
-           <Link
+             {links.map(({ id, link, to , style }) => (
+           <Link to={`${to}`} smooth duration={2000}
             key={id}
-            href={href}
+            
             className={`px-4  cursor-pointer  transition duration-200  hover:border-b-4 
              text-white hover:scale-105 mr-8 
              font-bold  ${style}`}
@@ -108,10 +109,11 @@ const NavBar : React.FC = () => {
                                 items-center 
                                 absolute   top-0 left-0 w-full h-screen   bg-black ">
 
-                    {links.map(({ id, link, href, style}) => (
-                    <Link
-                        key={id}
-                        href={href}
+                    {links.map(({ id, link, to, style}) => (
+                    <Link  to={`${to}`} smooth duration={2000}
+                        key={id} onClick={() => setNav(!nav)} 
+                        
+                        
                         className={`px-4  cursor-pointer   text-white py-4
                                 my-6 text-2xl font-extrabold transition duration-500 hover:scale-110  
                                 items-center  mr-3    rounded-xl ${style}`} >

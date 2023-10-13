@@ -5,9 +5,13 @@ import ArrowThick from "../../assets/arrow_thick.png"
 import L2LCTAPic from "../../assets/learn2learnnewslettertext.png"
 
 
+import { Fade , Bounce , Zoom , Roll ,  } from "react-awesome-reveal";
+
+
 const CTA = () => {
   return (
-    <div className='mb-64'>
+    <div id="How" className='mb-64'>
+      <Zoom>
       <h1 className='text-7xl pt-16 pb-16 text-center font-bold mt-32
       block  text-red-600 '>Ok, let&apos;s break it down once more.</h1>
 
@@ -33,6 +37,7 @@ const CTA = () => {
       <Image src={ArrowThick} alt="Arrow Thick"  className="mx-auto mb-16"/>
 
       <Image src={L2LCTAPic } alt="cta "  className="mx-auto mb-16"/>
+      </Zoom>
 
     </div>
   )

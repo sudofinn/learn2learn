@@ -7,10 +7,13 @@ import PhotoMe from "../assets/finnguha_photo_cutshort.png"
 import Support from "../assets/walloflove_finnguha.jpg"
 
 
+import { Fade , Bounce , Zoom , Roll ,  } from "react-awesome-reveal";
+
+
 
 const Founder = () => {
   return (
-    <div className='bg-black pt-0 lg:pt-32 w-full min-h-screen lg:h-screen mt-32  '>
+    <div id="Author" className='bg-black pt-0 lg:pt-32 w-full min-h-screen lg:h-screen mt-32  '>
    <div className="mx-5">
   <div className="">
     <div className="max-w-2xl mx-auto   overflow-hidden shadow-lg bg-white text-black rounded-xl">
@@ -54,7 +57,6 @@ const Founder = () => {
     </div>
   </div>
 </div> 
-
 </div>
   )
 }

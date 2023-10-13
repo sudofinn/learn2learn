@@ -4,6 +4,9 @@ import Link from "next/link"
 
 import LifeLongLearnStatistic from "../../assets/american_lifelong_learners_statistic.png"
 
+
+import { Fade , Bounce , Zoom , Roll ,  } from "react-awesome-reveal";
+
 const SocialProof = () => {
   return (
     <div className='mt-32 mb-32'>
@@ -18,7 +21,8 @@ const SocialProof = () => {
       <h1 className='text-7xl pt-16 pb-16 text-center font-bold  w-full lg:w-2/3  mx-auto
       block  text-white '>But few take the time to learn how to learn.</h1>
 
-
+  
+  <Zoom>
       <h1 className='text-6xl pt-16 pb-8 text-center font-bold   w-full lg:w-2/3  mx-auto
       block  text-red-600 '>Because few know that this is important.</h1>
       <h1 className='text-6xl pt-8 pb-8 text-center font-bold   w-full lg:w-2/3  mx-auto
@@ -28,10 +32,11 @@ const SocialProof = () => {
       receiving emails.</h1>
 
       <div className="flex justify-center">
-  <Link href="#product" className="hover:text-black hover:bg-red-600   text-white text-4xl   border-red-600 border-4 p-8
-  text-center   ">Join the Club !</Link>
+     <Link href="#product" className="hover:text-black hover:bg-red-600   text-white text-4xl   border-red-600 border-4 p-8
+      text-center   ">Join the Club !</Link>
+     </div>
 
-</div>
+    </Zoom>
 
     </div>
   )

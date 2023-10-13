@@ -11,7 +11,7 @@ const FAQ = () => {
 		
 	</div>
 	<div className="grid divide-y divide-red-600 max-w-2xl mx-auto mt-8">
-		<div className="py-5">
+		<div className="py-5 text-3xl">
 			<details className="group">
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> How many newsletter articles will I receive per week ?</span>
@@ -20,12 +20,12 @@ const FAQ = () => {
 </svg>
               </span>
 				</summary>
-				<p className=" mt-3 text-xl group-open:animate-fadeIn">
+				<p className=" mt-3 text-3xl group-open:animate-fadeIn">
 					 You will receive 1-2 articles per week.
 				</p>
 			</details>
 		</div>
-		<div className="py-5">
+		<div className="py-5 text-3xl">
 			<details className="group">
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> Who are you even ?</span>
@@ -34,13 +34,13 @@ const FAQ = () => {
 </svg>
               </span>
 				</summary>
-				<p className="text-xl mt-3 group-open:animate-fadeIn">
+				<p className="text-3xl mt-3 group-open:animate-fadeIn">
 					Hi,I&apos;m Finn Guha. I have been researching on how to learn properyl for nearly 5 years now. I have been using the learning App Anki 
 					for nearly 4 years and am doing ~200 flashcards every day while still enjoying my life, building my business and occassionally watching a movie.
 				</p>
 			</details>
 		</div>
-		<div className="py-5">
+		<div className="py-5 text-3xl">
 			<details className="group">
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> Where can I find out more about you ?</span>
@@ -49,12 +49,12 @@ const FAQ = () => {
 </svg>
               </span>
 				</summary>
-				<p className="text-xl mt-3 group-open:animate-fadeIn">
+				<p className="text-3xl mt-3 group-open:animate-fadeIn">
 					I&apos;m most active on <Link href="https://x.com/finnguha" target="_blank" className=' text-red-600'>𝕏</Link> (fka Twitter)
 				</p>
 			</details>
 		</div>
-        <div className="py-5">
+        <div className="py-5 text-3xl">
 			<details className="group">
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> What makes this newsletter stand out ?</span>
@@ -63,13 +63,13 @@ const FAQ = () => {
 </svg>
               </span>
 				</summary>
-				<p className="text-xl mt-3 group-open:animate-fadeIn">
+				<p className="text-3xl mt-3 group-open:animate-fadeIn">
 					I have been researching about the topic of learning for half of decade. This newsletter will be packed with concize information while still being easy to read and practical.
 					It is totally free and you will get access to a supportive study community on discord. This newsletter is your advantage when it comes to learning more effectively.
 				</p>
 			</details>
 		</div>
-		<div className="py-5">
+		<div className="py-5 text-3xl">
 			<details className="group">
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> So what can I expect from this newsletter ?</span>
@@ -78,13 +78,13 @@ const FAQ = () => {
 </svg>
               </span>
 				</summary>
-				<p className="text-xl mt-3 group-open:animate-fadeIn">
+				<p className="text-3xl mt-3 group-open:animate-fadeIn">
 					You will either by able to spend way less time studying while still getting the same results or you can get way better results 
 					when studying the same amount as you currently do.
 				</p>
 			</details>
 		</div>
-		<div className="py-5">
+		<div className="py-5 text-3xl">
 			<details className="group">
 				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
 					<span> That sounds awesome. Where can I sign up ?</span>
@@ -93,7 +93,7 @@ const FAQ = () => {
 </svg>
               </span>
 				</summary>
-				<p className="text-xl mt-3 group-open:animate-fadeIn">
+				<p className="text-3xl mt-3 group-open:animate-fadeIn">
 					Great that you want to start, just click <Link href="" className='text-red-600 underline'>here</Link> to enter you email and start receiving articles + getting access to the study community.
 				</p>
 			</details>

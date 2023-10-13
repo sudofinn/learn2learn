@@ -13,6 +13,9 @@ import HeaderPic from "../../assets/header_pic.png"
 import HeaderFinalPicMtoL from "../../assets/header_final.png"
 
 import AnkiHeaderPic from "../../assets/learn2learn_primary_pic.png"
+import AnkiHeaderPicSm from "../../assets/ankitransform_phone.png"
+
+
 
 const Header = () => {
 	
@@ -21,8 +24,9 @@ const Header = () => {
       <h1 className='text-7xl lg:text-8xl  pb-16 text-center font-bold px-8
        text-red-600 '>Learning right must be learnt</h1>
 
-      <Image src={AnkiHeaderPic} alt="Anki Header Pic" className='flex justify-center items-center mx-auto mb-16' />
-{/* we need other img for phone size */}
+      <Image src={AnkiHeaderPic} alt="Anki Header Pic" className='justify-center items-center mx-auto mb-16 hidden lg:flex' />
+
+      <Image src={AnkiHeaderPicSm} alt="Anki Header Pic" className='justify-center items-center mx-auto mb-16 flex lg:hidden' />
 
 <div className="flex justify-center">
   <Link href="#product" className="hover:text-black hover:bg-red-600   text-white text-4xl   border-red-600 border-4 p-8

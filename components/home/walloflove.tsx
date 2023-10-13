@@ -15,6 +15,8 @@ import PaliBestWebsite from "../../assets/palibest_screenshot.png"
 
 import ArrowThick from "../../assets/arrow_thick.png"
 
+import { Fade , Bounce , Zoom , Roll ,  } from "react-awesome-reveal";
+
 
 import {FaMousePointer} from "react-icons/fa"
 
@@ -23,6 +25,7 @@ const Walloflove = () => {
     <div className='flex justify-center items-center mx-auto w-full lg:w-2/3  flex-col'>
 
 <div>
+   <Zoom>
       <Image src={ArrowThick} alt="Arrow Thick"  className="mx-auto mb-16"/>
       <h1 className='text-5xl pt-16  text-center 
       block  text-red-600 '>But who am I to tell you how to learn ?</h1>
@@ -38,11 +41,11 @@ const Walloflove = () => {
       block  text-white '>  And I will share this wisdom with you for free. But let&apos;s have a look a bit more into 
       what makes me qualified.
       </h1>
+      </Zoom>
 
       </div>
        
     
-
 
 
 
@@ -55,7 +58,6 @@ const Walloflove = () => {
       <Image src={AnkiOne} alt="Image One"  className="mb-8"/>
       <Image src={AnkiTwo} alt="Image One" className="w-full lg:w-1/3 mb-16" />
 
-
       <h1 className='text-5xl pb-8 mt-32 text-center 
       block  text-white  '> I have been reading various studies and include the key elements into 
       these newsletter. I know what works and what doesn&apos;t. </h1>
@@ -63,6 +65,7 @@ const Walloflove = () => {
       <Image src={StudyProof} alt="Image One"  className="mb-8"/>
 
 
+     
       <h1 className='text-5xl pb-8 mt-32 text-center 
       block  text-white  '> If you are into programming, you might have heard about my 
       business  <Link href="https://codingnotes.io" className='underline text-yellow-600 hover:no-underline ' target='_blank'>CodingNotes.io</Link> which teaches you web development effectively. I put all of my knowledges
@@ -76,7 +79,6 @@ const Walloflove = () => {
       I&apos;m building atm. </h1>
       
       <Image src={PaliBestWebsite} alt="Image One"  className="mb-8"/>
-      
 
     </div>
   )

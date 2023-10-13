@@ -22,10 +22,14 @@ import 'react-slideshow-image/dist/styles.css'
 import NavBar from '../../components/home/NavBar'
 import Footer from '../../components/home/Footer'
 
-import First from "../../assets/htmlcss1_final.png"
-import Second from "../../assets/htmlcss2.png"
-import Third from "../../assets/htmlcss3.png"
-import Forth from "../../assets//htmlcss4.png"
+import First from "../../assets/learn2learn_banner_1.png"
+import Second from "../../assets/learn2learn_banner_2.png"
+import Third from "../../assets/learn2learn_banner_3.png"
+import Forth from "../../assets/learn2learn_banner_4.png"
+import Fifth from "../../assets/learn2learn_banner_5.png"
+
+
+import { Fade , Bounce , Zoom , Roll ,  } from "react-awesome-reveal";
 
 
 
@@ -50,6 +54,10 @@ const FirstCarousel = () => {
     src: Forth,
     caption: 'Slide 4'
   },
+  {
+    src: Fifth,
+    caption: 'Slide 5'
+  },
  
 ];
 
@@ -65,7 +73,7 @@ const FirstCarousel = () => {
     <div className='w-full min-h-screen     p-4  '>
       
 
-    
+    <Zoom>
 
 
      <div className='text-center '>
@@ -89,13 +97,13 @@ const FirstCarousel = () => {
       </div>
          
 
-      <h1 className='text-4xl pt-16 mt-0 lg:mt-16 pb-16 w-ful  lg:w-1/2 text-center mx-auto font-bold italic border-8  p-4
+      <h1 className='text-4xl pt-16 mt-0 mb-32 lg:mt-16 pb-16 w-ful  lg:w-1/2 text-center mx-auto font-bold italic border-8  p-4
       block   text-white '>Because knowing how to study effectively makes you faster, sharper and more willing to learn.</h1>
 
 
 
 
-
+</Zoom>
 
       </div>
 

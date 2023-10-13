@@ -32,7 +32,7 @@ import SocialProof from '@/components/home/SocialProof'
 
 export default function Home() {
   return (
-    <div className="bg-[#101010]">
+    <div className="bg-black">
       <Head>
       <title>Learn2Learn</title>
        <meta name="description" content="The Learn2Learn newsletter !" />
