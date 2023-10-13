@@ -15,8 +15,8 @@ import Router from "next/router"
 import LaptopMockup from "../../assets/covers/htmlcss_mockup_final.png"
 
 
-//import { Slide } from 'react-slideshow-image';
-//import 'react-slideshow-image/dist/styles.css'
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
 
 
 import NavBar from '../../components/home/NavBar'
@@ -74,7 +74,7 @@ const FirstCarousel = () => {
 
 
     </div>
-    {/*
+    
      <div className="slide-container  mt-32 mx-0 lg:mx-32 mb-64  ">
         <Slide transitionDuration={500} >
          {slideImages.map((slideImage, index)=> (
@@ -87,7 +87,7 @@ const FirstCarousel = () => {
         </Slide>
 
       </div>
-         */}
+         
 
       <h1 className='text-4xl pt-16 mt-16 pb-16 w-1/2 text-center mx-auto font-bold italic border-8  p-4
       block   text-white '>Because knowing how to study effectively makes you faster, sharper and more willing to learn.</h1>
