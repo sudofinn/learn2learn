@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from "next/link"
+import {Link} from "react-scroll"
 import Router from "next/router"
 import Image from "next/image"
 
@@ -22,15 +22,15 @@ const Header = () => {
   return (
     <div className=""  >
       <h1 className='text-7xl lg:text-8xl  pb-16 text-center font-bold px-8
-       text-red-600 '>Learning right must be learnt</h1>
+       text-red-600 '>Learning right must be learned</h1>
 
       <Image src={AnkiHeaderPic} alt="Anki Header Pic" className='justify-center items-center mx-auto mb-16 hidden lg:flex' />
 
       <Image src={AnkiHeaderPicSm} alt="Anki Header Pic" className='justify-center items-center mx-auto mb-16 flex lg:hidden' />
 
 <div className="flex justify-center">
-  <Link href="#product" className="hover:text-black hover:bg-red-600   text-white text-4xl   border-red-600 border-4 p-8
-  text-center   ">Join the Club !</Link>
+  <Link to="SignUp" smooth duration={2000} className="hover:text-black hover:bg-red-600   text-white text-4xl   border-red-600 border-4 p-8
+  text-center  cursor-pointer ">Learn how to learn !</Link>
 
 </div>
 

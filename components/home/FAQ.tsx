@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from "next/link"
+import {Link  as Link2} from "react-scroll"
+
 
 const FAQ = () => {
   return (
@@ -64,7 +66,7 @@ const FAQ = () => {
               </span>
 				</summary>
 				<p className="text-3xl mt-3 group-open:animate-fadeIn">
-					I have been researching about the topic of learning for half of decade. This newsletter will be packed with concize information while still being easy to read and practical.
+					I have been researching about the topic of learning for half of decade. This newsletter will is packed with concise information while still being easy to read and practical.
 					It is totally free and you will get access to a supportive study community on discord. This newsletter is your advantage when it comes to learning more effectively.
 				</p>
 			</details>
@@ -94,7 +96,7 @@ const FAQ = () => {
               </span>
 				</summary>
 				<p className="text-3xl mt-3 group-open:animate-fadeIn">
-					Great that you want to start, just click <Link href="" className='text-red-600 underline'>here</Link> to enter you email and start receiving articles + getting access to the study community.
+					Great that you want to start, just click <Link2 to="SignUp" smooth duration={1000} className='text-red-600 underline cursor-pointer'>here</Link2> to enter you email and start receiving articles + getting access to the study community.
 				</p>
 			</details>
 		</div>

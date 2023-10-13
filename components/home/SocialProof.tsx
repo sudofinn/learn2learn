@@ -2,6 +2,8 @@ import React from 'react'
 import Image from "next/image"
 import Link from "next/link"
 
+import {Link as Link2} from "react-scroll"
+
 import LifeLongLearnStatistic from "../../assets/american_lifelong_learners_statistic.png"
 
 
@@ -32,8 +34,8 @@ const SocialProof = () => {
       receiving emails.</h1>
 
       <div className="flex justify-center">
-     <Link href="#product" className="hover:text-black hover:bg-red-600   text-white text-4xl   border-red-600 border-4 p-8
-      text-center   ">Join the Club !</Link>
+     <Link2  to="SignUp" smooth duration={1000} className="hover:text-black hover:bg-red-600   text-white text-4xl   border-red-600 border-4 p-8
+      text-center cursor-pointer   ">Start receiving emails !</Link2>
      </div>
 
     </Zoom>

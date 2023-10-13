@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from 'next/link'
 
 
+
 import Support from "../../assets/walloflove_finnguha.jpg"
 
 import WritingPic from "../../assets/writingpic.jpg"
@@ -32,7 +33,7 @@ const Walloflove = () => {
 
       <h1 className='text-5xl pt-16 mb- text-center 
       block  text-white '>I have been trying to learn more about the &quot;Art of Learning&quot;
-      for more than 5 years. 
+      for almost 5 years. 
       </h1>
        <h1 className='text-5xl pt-16 text-center 
       block  text-white '>Reading dozens of studies on how to become a more efficient leaner. 
@@ -52,7 +53,7 @@ const Walloflove = () => {
 
       <h1 className='text-5xl pt-16 pb-16 text-center 
       block  text-red-600 '> I have been learning with the  popular Note-taking app 
-       <Link href="https://apps.ankiweb.net/" className='underline text-white'>Anki</Link> for almost 2 consecutive 
+       <Link href="https://apps.ankiweb.net/" className='underline text-white'> Anki</Link> for almost 2 
       years without taking a day off. </h1>
       
       <Image src={AnkiOne} alt="Image One"  className="mb-8"/>
@@ -60,7 +61,7 @@ const Walloflove = () => {
 
       <h1 className='text-5xl pb-8 mt-32 text-center 
       block  text-white  '> I have been reading various studies and include the key elements into 
-      these newsletter. I know what works and what doesn&apos;t. </h1>
+      these newsletter in this newsletter. I know what works and what doesn&apos;t. </h1>
       
       <Image src={StudyProof} alt="Image One"  className="mb-8"/>
 
@@ -75,7 +76,7 @@ const Walloflove = () => {
 
 
       <h1 className='text-5xl pb-8 mt-32 text-center 
-      block  text-white  '> All of this leads to <Link href="https://pali.best" className='underline text-red-600 hover:no-underline ' target='_blank'>pali.best</Link>, the next level learning app 
+      block  text-white  '> All of this eventually leads to <Link href="https://pali.best" className='underline text-red-600 hover:no-underline ' target='_blank'>pali.best</Link>, the next-level learning app 
       I&apos;m building atm. </h1>
       
       <Image src={PaliBestWebsite} alt="Image One"  className="mb-8"/>

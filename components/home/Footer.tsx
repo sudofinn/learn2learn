@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from "next/link"
+import {Link  as Link2} from "react-scroll"
 import Router from "next/router"
 
 //import { FaTwitter } from "react-icons/fa";
@@ -45,13 +46,13 @@ const Footer = () => {
 				<div className="p-5 ">
 					<ul>
 						<p className="font-extrabold text-3xl pb-4">Sidemap </p>
-						<li  onClick={() => Router.push("https://finnguha.com")} className=" font-extrabold text-md pb-2   cursor-pointer">
+						<li  onClick={() => window.open("https://finnguha.com")} className=" font-extrabold text-md pb-2   cursor-pointer">
 							About Finn Guha
 						</li>
 						
-						<li onClick={() => Router.push("/founder")} className=" text-md pb-2 font-extrabold   cursor-pointer">
+						<Link2 to="SignUp" smooth duration={1000} className=" text-md pb-2 font-extrabold   cursor-pointer">
 							Sign up to Newsletter
-						</li>
+						</Link2>
 
 						<li onClick={() => Router.push("/sources")} className=" text-md pb-2 font-extrabold   cursor-pointer">
 							Sources
